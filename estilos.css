@@ -3,11 +3,68 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	text-decoration: none;
-	list-style: none;
 }
 
 @font-face {
 	font-family:"montserrat";
 	src: url("Font/Montserrat-Regular.ttf")format("truetype");
 }
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+/*-----PAGINA DE BIENVENIDA-----*/
+
+
+/*----LANDING PAGE/PAGINA PRINCIPAL-----*/
+
+
+/*----carrousel----*/
+
+.carrousel{
+	max-width: 1040px;
+	margin: 0 auto;
+	
+}
+.carrousel_elementos{
+	margin: 15px;
+	position: absolute;
+	transition: all ease 0.3s;
+	
+}
+.carrousel_lista{
+	text-align: center;
+}
+
+.carrousel_anterior, .carrousel_siguiente {
+	display: block;
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	opacity: 50%;
+	border: 0px;
+}
+
+.carrousel_anterior:hover, .carrousel_siguiente:hover{
+	opacity: 100%;
+}
+
+.carrousel_anterior{
+	left: -30px;
+}
+
+.carrousel_siguiente{
+	right: -30px;
+}
+
+/*----PAGINA DE PERSONAS----*/
+
+/*----PAGINA DE EMPRESAS----*/
+
