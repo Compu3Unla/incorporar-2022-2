@@ -11,3 +11,30 @@
 	font-family:"montserrat";
 	src: url("Font/Montserrat-Regular.ttf")format("truetype");
 }
+
+@media screen and ( max-width : 1366px ){
+
+/* Responsive adaptado a Android small 1366x768 */
+/*
+.ventanas{
+	padding-left: 90%;	
+}
+.ventana-accesibilidad .ventana-chat{
+	position: sticky;
+	top: 10px;
+}*/
+	
+.ventana{
+	padding: 25px;
+}
+.ventana-accesibilidad {
+	position: fixed;
+	bottom:105px;
+	right:50px;
+}
+.ventana-chat{
+	position: fixed;
+	bottom: 25px;
+	right: 50px;
+}
+}
