@@ -26,18 +26,21 @@ body{
 /*----carrousel----*/
 
 .carrousel{
+	padding-top:100px;
 	max-width: 1040px;
 	margin: 0 auto;
 	
 }
 .carrousel_elementos{
-	margin: 15px;
-	position: absolute;
+	margin: 30px;
+	position: relative;
 	transition: all ease 0.3s;
 	
 }
 .carrousel_lista{
 	text-align: center;
+	justify-content: flex-start;
+	display: flex;
 }
 
 .carrousel_anterior, .carrousel_siguiente {
