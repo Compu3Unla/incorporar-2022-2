@@ -10,6 +10,30 @@
 	src: url("Font/Montserrat-Regular.ttf")format("truetype");
 }
 
+@media screen and ( max-width : 1366px ){
+
+/* Responsive adaptado a Android small 1366x768 */
+	
+/* ------VENTANA CHAT Y ACCESIBILIDAD---------*/
+	
+.ventana{
+	padding: 25px;
+}
+	
+.ventana-accesibilidad {
+	position: fixed;
+	bottom:105px;
+	right:50px;
+}
+	
+.ventana-chat{
+	position: fixed;
+	bottom: 25px;
+	right: 50px;
+}
+
+/*---------------------------------------------*/
+	
 body{
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -70,4 +94,4 @@ body{
 /*----PAGINA DE PERSONAS----*/
 
 /*----PAGINA DE EMPRESAS----*/
-
+}
