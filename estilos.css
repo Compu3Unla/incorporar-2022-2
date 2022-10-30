@@ -76,7 +76,7 @@ ul{
 
 /*oculte el codigo de las botoneras, por que aparece en todas las paginas y no recuerdo como encerrarlo para que aparezca solo en la pantalla que quiero. puede que lo este haciendo mal, pero no veo cual es el problema si lo ven genial*/
 
-
+/*
 li{
 	background-color: #F68C0F;
 	border-radius: 10px;
@@ -98,7 +98,7 @@ a{
 a:hover{
 	color: #136284;
 	}
-/*------------------------------------------------*/
+*/
 
 /* ------VENTANA CHAT Y ACCESIBILIDAD---------*/
 	
