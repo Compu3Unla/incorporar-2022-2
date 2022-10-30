@@ -25,6 +25,57 @@ body{
 	list-style: none;
 }
 
+/*---------------------Footer-----------------------*/
+
+.footer{
+	display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 35px;	
+}
+
+.iconos-footer{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-content: center;
+	/*	display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+/*--------------------Navegador---------------------*/
+ 
+.navegador1{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegador1 .navegador2 ul {
+	display: inline;
+}
+
+.navegador1, img{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+.navegador1 nav ul li{
+	margin-right: 45px;
+	padding-left: 25px;		
+}
+
+
+.navegador2 li{
+	margin: 25px;
+	padding-left: 15px;
+}
+
 /*-----PAGINA DE BIENVENIDA-----*/
 
 .frase{
@@ -128,7 +179,7 @@ body{
 h2{
 	font-size: 48px;
 	font-weight: 600;
-	color: #FFFFFF;
+	color: #999999;
 }
 
 h3{
