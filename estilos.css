@@ -1,8 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+
 *{
 	padding: 0px;
 	margin: 0px;
+	text-decoration: none;
+	list-style: none;
 }
 
 @font-face {
@@ -13,7 +16,88 @@
 @media screen and ( max-width : 1366px ){
 
 /* Responsive adaptado a Android small 1366x768 */
+
+/*----------------body-----------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+/*-----PAGINA DE BIENVENIDA-----*/
+
+.frase{
+		width: 650px;
+		height: 248px;
+		margin-top: 10%;
+		padding-left: 2%;
+}
 	
+
+.frase img{
+			margin-bottom: 2%;
+				
+}
+
+
+.frase p{
+		font-family: "montserrat";
+		font-weight: normal;
+		font-size: 30pt;
+		width: 650px;
+}
+
+
+.imageninicio img{
+				margin-top: 20%;
+				padding-left: 2%;
+}
+
+
+.grupo1{
+		display: flex;
+}
+
+
+
+/*------------------botones de bienvenida------------*/
+
+nav ul li{
+		display: inline;
+}
+
+
+ul{
+	padding-top: 5%;
+}
+
+
+
+/*oculte el codigo de las botoneras, por que aparece en todas las paginas y no recuerdo como encerrarlo para que aparezca solo en la pantalla que quiero. puede que lo este haciendo mal, pero no veo cual es el problema si lo ven genial*/
+
+/*li{
+	background-color: #F68C0F;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 15px;
+}*/
+
+/*a{
+	font-family: "montserrat";
+	font-weight:500;
+	font-size: 24pt;
+	color:#FFFFFF;
+	width: 210px;
+	height: 79px;
+}
+
+a:hover{
+	color: #136284;
+}
+*/
+/*------------------------------------------------*/
+
 /* ------VENTANA CHAT Y ACCESIBILIDAD---------*/
 	
 .ventana{
@@ -31,7 +115,6 @@
 	bottom: 25px;
 	right: 50px;
 }
-
 /*---------------------------------------------*/
 
 body{
@@ -69,7 +152,6 @@ h5{
 }
 
 /*-----PAGINA DE BIENVENIDA-----*/
-
 
 /*----LANDING PAGE/PAGINA PRINCIPAL-----*/
 
