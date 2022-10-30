@@ -25,30 +25,54 @@ body{
 	list-style: none;
 }
 
-/*---------------------Footer-----------------------*/
-
-.footer{
-	display: flex;
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 35px;	
+/*-------------------h2--h3--h4--h5------------*/
+h2{
+	font-size: 48px;
+	font-weight: 600;
+	color: #999999;
 }
 
-.iconos-footer{
-	display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    align-content: center;
-	/*	display: flex;
-    flex-direction: column;
-    align-items: center;*/
+h3{
+	font-size: 36px;
+	font-weight: 500;
+	color: #136284;
+	display:flex;
+	justify-content: center;
+	padding-bottom: 30px;
+
 }
 
-/*--------------------Navegador---------------------*/
+h4{
+	font-size: 20px;
+	font-weight: 500;
+	color: #136284
+}
+
+h5{
+	font-size: 18px;
+	font-wight: 500;
+	color: #000000
+}
+
+/* ------VENTANA CHAT Y ACCESIBILIDAD---------*/
+	
+.ventana{
+	padding: 25px;
+}
+	
+.ventana-accesibilidad {
+	position: fixed;
+	bottom:105px;
+	right:50px;
+}
+	
+.ventana-chat{
+	position: fixed;
+	bottom: 25px;
+	right: 50px;
+}
+
+/*--------------------header---------------------*/
  
 .navegador1{
 	display: flex;
@@ -75,6 +99,30 @@ body{
 	margin: 25px;
 	padding-left: 15px;
 }
+
+/*----------------footer---------------------*/
+
+.footer{
+	display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 35px;	
+}
+
+.iconos-footer{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-content: center;
+	/*	display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
 
 /*-----PAGINA DE BIENVENIDA-----*/
 
@@ -150,61 +198,6 @@ a:hover{
 	color: #136284;
 	}
 */
-
-/* ------VENTANA CHAT Y ACCESIBILIDAD---------*/
-	
-.ventana{
-	padding: 25px;
-}
-	
-.ventana-accesibilidad {
-	position: fixed;
-	bottom:105px;
-	right:50px;
-}
-	
-.ventana-chat{
-	position: fixed;
-	bottom: 25px;
-	right: 50px;
-}
-/*---------------------------------------------*/
-
-body{
-	font-family: 'Montserrat', sans-serif;
-	text-decoration: none;
-	list-style: none;
-}
-
-h2{
-	font-size: 48px;
-	font-weight: 600;
-	color: #999999;
-}
-
-h3{
-	font-size: 36px;
-	font-weight: 500;
-	color: #136284;
-	display:flex;
-	justify-content: center;
-	padding-bottom: 30px;
-
-}
-
-h4{
-	font-size: 20px;
-	font-weight: 500;
-	color: #136284
-}
-
-h5{
-	font-size: 18px;
-	font-wight: 500;
-	color: #000000
-}
-
-/*-----PAGINA DE BIENVENIDA-----*/
 
 /*----LANDING PAGE/PAGINA PRINCIPAL-----*/
 
