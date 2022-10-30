@@ -115,8 +115,54 @@ a:hover{
 	bottom: 25px;
 	right: 50px;
 }
+/*---------------------------------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+h2{
+	font-size: 48px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+h3{
+	font-size: 36px;
+	font-weight: 500;
+	color: #136284;
+	display:flex;
+	justify-content: center;
+	padding-bottom: 30px;
+
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 500;
+	color: #136284
+}
+
+h5{
+	font-size: 18px;
+	font-wight: 500;
+	color: #000000
+}
+
+/*-----PAGINA DE BIENVENIDA-----*/
+
 /*----LANDING PAGE/PAGINA PRINCIPAL-----*/
 
+.cuadro {
+	border: 2px solid #F68C0F;
+	border-radius: 11px;
+	padding: 60px;
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
 
 /*----carrousel----*/
 
