@@ -280,5 +280,82 @@ a:hover{
 
 /*----PAGINA DE PERSONAS----*/
 
-/*----PAGINA DE EMPRESAS----*/
+/*------------------------PAGINA DE EMPRESAS--------------------*/
+.completa-datos-empresa{
+	width: 1184px;
+	height: 534px;
+	padding: 5px;
+	margin: 50px;
+	border-radius: 10px;
+	border: 2px solid #F68C0F;
 }
+
+.completa-datos-empresa h3{
+	padding-top: 25px;
+	padding-bottom: 25px	
+}
+
+.completa-datos-empresa h2{
+	margin-left: 45px;
+}
+
+.datos-empresas{
+	width: 1184px;
+	height: 534px;
+	margin-bottom: 10%;	
+}
+
+.orden1{
+	display: flex;
+}
+
+.orden2 input{
+	width: 446px;
+	height: 54px;
+	padding-left: 15px;
+	border-radius: 10px;
+	border: 2px solid #136284;		
+}
+
+.orden2 label{
+	display: flex;
+    flex-direction: row;
+	padding-bottom: 1%;
+	padding-top: 2%;
+}
+
+.orden2{
+	padding: 50px;
+	padding-top: 10px;
+}
+
+
+.orden3 input{
+	width: 446px;
+	height: 54px;
+	padding-left: 15px;
+	border-radius: 10px;
+	border: 2px solid #136284;		
+}
+
+.orden3 label{
+	display: flex;
+    flex-direction: row;
+	padding-bottom: 1%;
+	padding-top: 2%;
+}
+
+.orden3{
+	padding: 50px;
+	padding-top: 10px;
+}
+
+.boton-enviar{
+	width: 178px;
+	height: 61px;
+	margin-top: 15px;
+	color: #FFFFFF;
+	background-color: #136284	
+}
+}
+
