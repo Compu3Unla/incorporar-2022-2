@@ -4,13 +4,6 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	text-decoration: none;
-	list-style: none;
-}
-
-@font-face {
-	font-family:"montserrat";
-	src: url("Font/Montserrat-Regular.ttf")format("truetype");
 }
 
 @media screen and ( max-width : 1366px ){
@@ -26,9 +19,14 @@ body{
 }
 
 /*-------------------h2--h3--h4--h5------------*/
+	
+h1{
+	font-weight: 400;
+}
+	
 h2{
-	font-size: 48px;
-	font-weight: 600;
+	font-size: 40px;
+	font-weight: 500;
 	color: #999999;
 }
 
@@ -45,16 +43,16 @@ h3{
 h4{
 	font-size: 20px;
 	font-weight: 500;
-	color: #136284
+	color: #136284;
 }
 
 h5{
 	font-size: 18px;
-	font-wight: 500;
-	color: #000000
+	font-weight: 500;
+	color: #000000;
 }
 
-/* ------VENTANA CHAT Y ACCESIBILIDAD---------*/
+/* ------chat y accesibilidad---------*/
 	
 .ventana{
 	padding: 25px;
@@ -74,98 +72,107 @@ h5{
 
 /*--------------------header---------------------*/
  
-.navegador1{
+.home_navegador1{
 	display: flex;
-    align-items: center;
-    justify-content: space-between;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.navegador1 .navegador2 ul {
+.home_navegador1 .home_navegador2 ul {
 	display: inline;
 }
 
-.navegador1, img{
+.home_navegador1, img{
 	padding-top: 25px;
 	padding-left: 25px;
 }
 
-.navegador1 nav ul li{
+.home_navegador1 nav ul li{
 	margin-right: 45px;
-	padding-left: 25px;		
+	padding-left: 25px;
 }
 
+span{
+	color: #136284;
+}
 
-.navegador2 li{
+.home_navegador2 li{
 	margin: 25px;
 	padding-left: 15px;
+}
+
+.home_navegador2:hover{
+	font-weight: 600;
 }
 
 /*----------------footer---------------------*/
 
 .footer{
 	display: flex;
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 35px;	
+	justify-content: space-between;
+	padding-left: 25px;
+	padding-right: 25px;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 35px;
 }
 
 .iconos-footer{
 	display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    align-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	align-content: center;
 	/*	display: flex;
-    flex-direction: column;
-    align-items: center;*/
+	flex-direction: column;
+	align-items: center;*/
 }
 
 
 /*-----PAGINA DE BIENVENIDA-----*/
 
 .frase{
-		width: 650px;
-		height: 248px;
-		margin-top: 10%;
-		padding-left: 2%;
+	width: 650px;
+	height: 248px;
+	margin-top: 10%;
+	padding-left: 2%;
 }
 	
 
 .frase img{
-			margin-bottom: 2%;
-				
+	margin-bottom: 2%;
 }
 
 
 .frase p{
-		font-family: "montserrat";
-		font-weight: normal;
-		font-size: 30pt;
-		width: 650px;
+	font-family: "montserrat";
+	font-weight: normal;
+	font-size: 30pt;
+	width: 650px;
 }
 
 
 .imageninicio img{
-				margin-top: 20%;
-				padding-left: 2%;
+	margin-top: 20%;
+	padding-left: 2%;
 }
 
 
 .grupo1{
-		display: flex;
+	display: flex;
 }
-
 
 
 /*------------------botones de bienvenida------------*/
 
 nav ul li{
-		display: inline;
+	font-weight: 600;
+	display: inline;
 }
-
+nav a{
+	text-decoration: none;
+	color: black;
+}
 
 ul{
 	padding-top: 5%;
@@ -199,7 +206,7 @@ a:hover{
 	}
 */
 
-/*----LANDING PAGE/PAGINA PRINCIPAL-----*/
+/*----HOME-----*/
 
 .cuadro {
 	border: 2px solid #F68C0F;
@@ -207,9 +214,26 @@ a:hover{
 	padding: 60px;
 	margin-right: 5%;
 	margin-left: 5%;
-
 }
 
+.buttons{
+	font-weight: 500;
+	font-size: 20px;
+}
+.boton_ver_mas{
+	position: absolute;
+	width: 178px;
+	height: 60px;
+	left: 963px;
+	top: 949px;
+	background-color: #136284;
+	border-radius: 10px;
+	border-style: none;
+	color: white;
+	font-weight: 400;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
 /*----carrousel----*/
 
 .carrousel{
