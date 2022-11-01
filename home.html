@@ -5,38 +5,33 @@
 <title>IncorporAR</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="estilos.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="img/reduccion.svg">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 </head>
 
 <body>
-	<header class="home_navegador1">
-		<div>
-			<nav>
+	<header>
+		<nav>
 			<img src="img/logo-pantallas.svg" width="247" height="45px" alt="logo">
-				<ul>
-					<li><a href="#">¿Buscas empleo?</a></li>
-					<li><a href="#">Crear cuenta</a></li>
-					<li><a href="#">Ingresar</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div>
-			<nav class="home_navegador2">
-				<ul>
-					<li><a href="#">conocenos</a></li>
-					<li><a href="#">Informate</a></li>
-					<li><a href="#">¿Qué hacemos?</a></li>
-				</ul>
-				</nav>
-		</div>
-			</header>
+			<button class="buscasempleo"><a href="#">¿Buscas empleo?</a></button>
+			<button class="crearcuenta"><a href="#">Crear cuenta</a></button>
+			<button class="ingresar"><a class="aingresar" href="#">Ingresar</a></button>
+		</nav>
+		<section>
+			<ul>
+				<li>conocenos</li>
+				<li>Informate</li>
+				<li>¿Qué hacemos?</li> 
+			</ul><!-- le saqué los a porque no los podemos linkear con nada creo -->
+		</section>
+	</header>
 <main>
 	<section>
-		<input type="text" placeholder="Puesto, empleo o palabra clave   Ciudad, localidad">
+		<input class="buscador" type="text" placeholder="Puesto, empleo o palabra clave   Ciudad, localidad" >
 			<img src="img/iconos/lupa.svg" width="28px" height="28px" alt="lupa">
-			<button type="submit" >Buscar trabajo</button>
+			<button class="buscartrabajo" type="submit" >Buscar trabajo</button>
 	</section>
 
 		<section class="ventanas">
@@ -49,16 +44,16 @@
 		</section>
 		
 		<a href="https://www.ayudacv.es/landers?utm_source=google&utm_medium=cpc&utm_campaign=1855236922&utm_term=ayuda%20cv&utm_placement=" target="_blank"><!-- linkear personas/-->
-			<button>
+			<button class="cv">
 				<h2>Armá tu cv </h2>
-				<p class="buttons">Te ayudamos con el proceso</p>
+				<p class=>Te ayudamos con el proceso</p>
 				<img src="img/iconos/ilustracion-cv.svg" width="313px" height="223px" alt="ilustracion-cv">
 			</button>
 		</a>
 		<a href="empresas.html" target="_blank"><!-- linkear empresa/-->
-			<button>
+			<button class="empresa">
 				<h2>Empresa</h2>
-				<p class="buttons">Sumate al cambio social</p>
+				<p class>Sumate al cambio social</p>
 				<img src="img/iconos/ilustracion-empresa.svg" width="294px" height="235px" alt="ilustracion-empresa">
 			</button>
 		</a>
