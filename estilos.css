@@ -27,7 +27,6 @@ h1{
 h2{
 	font-size: 40px;
 	font-weight: 500;
-	color: #999999;
 }
 
 h3{
@@ -71,40 +70,71 @@ h5{
 }
 
 /*--------------------header---------------------*/
- 
-.home_navegador1{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+header{
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.buscador{
+	width: 1000px;
+	height: 60px;
+	border-radius: 20px;
+	border-color: #F68C0F;
+}
+.buscartrabajo{
+	width: 170px;
+	height: 60px;
+	background-color: #136284;
+	border-color: #136284;
+	color: #FFFFFF;
+	border-radius: 20px;
 }
 
-.home_navegador1 .home_navegador2 ul {
-	display: inline;
+.buscasempleo{
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	width: 170px;
+	height: 60px;
+	border-radius: 10px;
+}
+.crearcuenta{
+	width: 170px;
+	height: 60px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border-color: #FFFFFF
+}
+.ingresar{
+	width: 170px;
+	height: 60px;
+	background-color: #136284;
+	border-color: #136284;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+.aingresar{
+	color: #FFFFFF;
+}
+header nav a {
+	text-decoration: none;
+}
+}
+header ul{
+	list-style-type: none
 }
 
-.home_navegador1, img{
-	padding-top: 25px;
-	padding-left: 25px;
+header::after,section::before{
+	content: 0;
+	position: absolute;
+	width: 1180;
+	background-color: #F68C0F;
+	
 }
 
-.home_navegador1 nav ul li{
-	margin-right: 45px;
-	padding-left: 25px;
-}
+
 
 span{
 	color: #136284;
 }
-
-.home_navegador2 li{
-	margin: 25px;
-	padding-left: 15px;
-}
-
-.home_navegador2:hover{
-	font-weight: 600;
-}
-
 /*----------------footer---------------------*/
 
 .footer{
@@ -129,84 +159,59 @@ span{
 }
 
 
-/*-----PAGINA DE BIENVENIDA-----*/
-
-.frase{
-	width: 650px;
-	height: 248px;
-	margin-top: 10%;
-	padding-left: 2%;
-}
-	
-
-.frase img{
-	margin-bottom: 2%;
-}
-
-
-.frase p{
-	font-family: "montserrat";
+/*-----INDEX-----*/
+h1 {
 	font-weight: normal;
-	font-size: 30pt;
+	font-size: 2.25em;
 	width: 650px;
+	margin-top: 10%;
 }
-
-
-.imageninicio img{
-	margin-top: 20%;
-	padding-left: 2%;
-}
-
-
-.grupo1{
+articule {
 	display: flex;
+	margin-top: 5%;
+	padding-left: 3%;
 }
-
-
-/*------------------botones de bienvenida------------*/
-
-nav ul li{
-	font-weight: 600;
-	display: inline;
+.foto{
+	margin: 0%;
 }
-nav a{
-	text-decoration: none;
-	color: black;
-}
-
-ul{
-	padding-top: 5%;
-}
-
-
-
-/*oculte el codigo de las botoneras, por que aparece en todas las paginas y no recuerdo como encerrarlo para que aparezca solo en la pantalla que quiero. puede que lo este haciendo mal, pero no veo cual es el problema si lo ven genial*/
-
-/*
-li{
+.naranja{
 	background-color: #F68C0F;
+	width: 270px;
+	height: 100px;
+	border-color: #F68C0F;
 	border-radius: 10px;
-	padding: 30px;
-	margin: 15px;
-}
-
-
-a{
+	margin-top: 3%;
 	font-family: "montserrat";
-	font-weight:500;
-	font-size: 24pt;
-	color:#FFFFFF;
-	width: 210px;
-	height: 79px;
+	font-weight: 500;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	padding: 30px;
+	margin: 30px;
 }
-
-
-a:hover{
-	color: #136284;
-	}
-*/
+.versitio{
+	text-decoration: none;
+	color: #FFFFFF;
+	} /*----falta el hover-----*/
 
 /*----HOME-----*/
+.cv{
+	background-color: #F18A12;
+	border-radius: 10px;
+	border-color: #F18A12;
+	width: 580px;
+	height: 260px;
+	color: #FFFFFF;
+	font-size: 1.5em
+}
+.empresa{
+	background-color: #136284;
+	border-color: #136284;
+	border-radius: 10px;
+	width: 580px;
+	height: 260px;
+	color: #FFFFFF;
+	font-size: 1.5em
+	}
 
 .cuadro {
 	border: 2px solid #F68C0F;
@@ -216,10 +221,6 @@ a:hover{
 	margin-left: 5%;
 }
 
-.buttons{
-	font-weight: 500;
-	font-size: 20px;
-}
 .boton_ver_mas{
 	position: absolute;
 	width: 178px;
