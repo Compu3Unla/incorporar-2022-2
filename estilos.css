@@ -135,6 +135,50 @@ nav ul li{
     align-items: center;
 }
 
+
+/*------------------------------------index-----------------------------*/
+h1 {
+	width: 650px;
+	margin-top: 10%;
+}
+article {
+	display: flex;
+	margin-top: 5%;
+	padding-left: 3%;
+}
+
+.botonesindex{
+	display: flex;
+}
+
+.naranja{
+	width: 300px;
+	height: auto;
+	background-color: #F68C0F;
+	border: 2px solid #F68C0F;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	padding: 15px;
+	margin: 15px;
+}
+
+.versitio{
+	color: #FFFFFF;
+} /*----falta el hover-----*/
+
+.body-home{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+	padding-bottom: 10%;
+    margin-top: 10%;
+}
+
+
 /*------------------------paginas empresas--------------------*/
 
 .completa-datos-empresa{
@@ -225,50 +269,6 @@ dl{
 	margin-bottom: 70px;
 	border-radius: 10px;
 	border: 2px solid #136284;	
-}
-
-
-
-/*------------------------------------index-----------------------------*/
-h1 {
-	width: 650px;
-	margin-top: 10%;
-}
-article {
-	display: flex;
-	margin-top: 5%;
-	padding-left: 3%;
-}
-
-.botonesindex{
-	display: flex;
-}
-
-.naranja{
-	width: 300px;
-	height: auto;
-	background-color: #F68C0F;
-	border: 2px solid #F68C0F;
-	border-radius: 10px;
-	font-weight: 500;
-	font-size: 1.5em;
-	color: #FFFFFF;
-	padding: 15px;
-	margin: 15px;
-}
-
-.versitio{
-	color: #FFFFFF;
-} /*----falta el hover-----*/
-
-.body-home{
-	display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-	padding-bottom: 10%;
-    margin-top: 10%;
 }
 
 
