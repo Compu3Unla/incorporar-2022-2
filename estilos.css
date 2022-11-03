@@ -343,7 +343,6 @@ dl{
     margin: 50px;
 }
 
-/*-----------codigo de home. de los botones de arma tu cv para abajo no tengo idea--------------------------------------*/
 .cv{
 	background-color: #F18A12;
 	border-radius: 10px;
@@ -362,6 +361,9 @@ dl{
 	color: #FFFFFF;
 	font-size: 1.5em
 	}
+
+
+/*-----------codigo de home. de los botones de arma tu cv para abajo no tengo idea--------------------------------------*/
 
 .cuadro {
 	border: 2px solid #F68C0F;
