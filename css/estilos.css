@@ -42,7 +42,7 @@ h3{
 }
 
 h4{
-	font-size: 1.25;
+	font-size: 1.25em;
 	font-weight: 500;
 	color: #136284;
 }
@@ -142,7 +142,7 @@ h1 {
 	margin-top: 10%;
 }
 
-article {
+.indexsection {
 	display: flex;
 	margin-top: 5%;
 	padding-left: 3%;
@@ -324,11 +324,11 @@ dl{
 }
 
 .boton_ver_mas{
-	position: relative;
+	position:relative;
 	width: 178px;
 	height: 60px;
-	right: 20%;
-	bottom: 10%;
+	right: -30%;
+	bottom: 100px;
 	background-color: #136284;
 	border-radius: 10px;
 	border-style: none;
@@ -365,14 +365,97 @@ dl{
 
 /*-----------codigo de home. de los botones de arma tu cv para abajo no tengo idea--------------------------------------*/
 
-.cuadro {
-	border: 2px solid #F68C0F;
-	border-radius: 11px;
-	padding: 60px;
-	margin-right: 5%;
-	margin-left: 5%;
+.capacitacion{
+	width: 95%;
+	height: 95%;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
 }
 
+.capacitacion img{
+	width: 95%;
+	height: 95%;
+}
+
+.cuadro {
+	border: 2px solid #F68C0F;
+	border-radius: 10px;
+	padding-left: 90px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	padding-right: 90px;
+	margin-top: 60px;
+	margin-right: 12%;
+	margin-left: 12%;
+	margin-bottom: 60px
+}
+
+.valores {
+	font-size: 1.3em;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+
+.valoresp {
+	padding-right: 30%;
+}
+
+.iconoshome {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.trabajadores {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	text-align: center;
+	padding-bottom: 15px
+	
+}
+
+.trabajadores1 {
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	justify-content:space-around;
+	padding-right: 10%;
+	padding-left: 6%;
+}
+
+.trabajadores2 {
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	justify-content:space-between;
+	padding-left: 1%;
+	padding-right: 1%
+
+}
+
+.trabajadores3 {
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	justify-content:space-between;
+	padding-left: 4%;
+}
+
+.trabajadores4 {
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	justify-content:space-around;
+	padding-left: 3%;
+	padding-right: 3%
+}
 
 
 
