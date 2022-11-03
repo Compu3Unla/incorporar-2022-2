@@ -179,6 +179,50 @@ dl{
 	border: 2px solid #136284;	
 }
 
+
+
+/*------------------------------------index-----------------------------*/
+h1 {
+	width: 650px;
+	margin-top: 10%;
+}
+article {
+	display: flex;
+	margin-top: 5%;
+	padding-left: 3%;
+}
+
+.botonesindex{
+	display: flex;
+}
+
+.naranja{
+	width: 300px;
+	height: auto;
+	background-color: #F68C0F;
+	border: 2px solid #F68C0F;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	padding: 15px;
+	margin: 15px;
+}
+
+.versitio{
+	color: #FFFFFF;
+} /*----falta el hover-----*/
+
+.body-home{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+	padding-bottom: 10%;
+    margin-top: 10%;
+}
+
 /* -------------------chat y accesibilidad------------------------*/
 	
 .ventana-accesibilidad, .ventana-chat {
@@ -230,48 +274,6 @@ p{
 
 /*--------------------------de aca para abajo ni idea-------------------*/
 
-
-/*------------------------------------INDEX-----------------------------*/
-h1 {
-	width: 650px;
-	margin-top: 10%;
-}
-article {
-	display: flex;
-	margin-top: 5%;
-	padding-left: 3%;
-}
-
-.botonesindex{
-	display: flex;
-}
-
-.naranja{
-	width: 300px;
-	height: auto;
-	background-color: #F68C0F;
-	border: 2px solid #F68C0F;
-	border-radius: 10px;
-	font-weight: 500;
-	font-size: 1.5em;
-	color: #FFFFFF;
-	padding: 15px;
-	margin: 15px;
-}
-
-.versitio{
-	color: #FFFFFF;
-} /*----falta el hover-----*/
-
-.body-home{
-	display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-	padding-bottom: 10%;
-    margin-top: 10%;
-}
 
 /*----------------------------------HOME-----------------------------------*/
 .cv{
@@ -364,7 +366,8 @@ article {
 /*-------------------------------------------------*/
 
 .buscador{
-	width: 1000px;
+	width: 70%;
+	padding-left: 3%;
 	height: 60px;
 	border-radius: 20px;
 	border-color: #F68C0F;
