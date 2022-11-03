@@ -3,30 +3,32 @@
 <head>
 <meta charset="utf-8">
 <title>IncorporAR</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="estilos.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="img/reduccion.svg">
+<link href="estilos.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 </head>
 
 <body>
 	<header>
 		<nav>
-			<img src="img/logo-pantallas.svg" width="247" height="45px" alt="logo">
-			<button class="buscasempleo"><a href="#">¿Buscas empleo?</a></button>
-			<button class="crearcuenta"><a href="#">Crear cuenta</a></button>
-			<button class="ingresar"><a class="aingresar" href="#">Ingresar</a></button>
+			<div>
+				<a img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"><img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"></a>
+			</div>
+			<div class="nav-botones-derecho">
+				<a class="buscasempleo" href="#">¿Buscas empleo?</a>
+				<button class="crearcuenta"><a class="crear" href="#">Crear cuenta</a></button>
+				<button class="ingresar"><a class="aingresar" href="#">Ingresar</a></button>
+			</div>
 		</nav>
-		<section>
-			<ul>
-				<li>Conocenos</li>
-				<li>Informate</li>
-				<li>¿Qué hacemos?</li> 
-			</ul><!-- le saqué los a porque no los podemos linkear con nada creo -->
-		</section>
+			<nav>
+			<ul>	
+				<li><a class="buscasempleo" href="#">Conocenos</a></li>
+				<li><a class="buscasempleo" href="#">¿Qué hacemos?</a></li>
+				<li><a class="buscasempleo" href="#">Informate</a></li>
+			</ul>
+			</nav>
 	</header>
+	
 	<main>
 		<section>
 			<input class="buscador" type="text" placeholder="Puesto, empleo o palabra clave   Ciudad, localidad" >
@@ -154,47 +156,40 @@
 
 	<footer class="footer">
 		<section>
-			<p>Sobre nosotros</p>
-			<p>Términos y Condiciones</p>
 			<p>Contactanos</p>
+			<p>sobre nosotros</p>
+			<p>Términos y Condiciones</p>
+			<p>Todos los derechos reservados</p>
 		</section>
 
 		<section>
+			<p>Informate</p>
 			<p>Recursos</p>
-			<p>Blog</p>
 			<p>Casos de éxito</p>
-		</section>
-		
-		<section>
-			<p>Todos los derechos reservados</p>
 			<p>©2022 IncorporAR.com </p>
 		</section>
+
+		<section>
+			<p>Sol Martinez</p>
+			<p>Natalia Martinez</p>
+			<p>Soledad Quintana</p>
+			<p>Micaela balmaceda</p>
+		</section>
+		
 	<div class="iconos-footer">
 		<section>
-			<img src="img/logo-footer.svg" width="246px" height="44px" alt="logo">
+			<img src="file:///C|/Users/SOLEDAD/Desktop/incorporar solee/img/logo-footer.svg" width="246px" height="44px" alt="logo">
 		</section>
 		<section>
-			<img src="img/redes/instagram.svg" width="34px" height="34px" alt="instagram">
-			<img src="img/redes/twitter.svg" width="34px" height="34px" alt="twitter">
-			<img src="img/redes/linkedin.svg" width="34px" height="34px" alt="linkedin">
-			<img src="img/redes/facebook.svg" width="34px" height="34px" alt="facebook">
-			<img src="img/redes/youtube.svg" width="34px" height="34px" alt="youtube">
+			<img src="file:///C|/Users/SOLEDAD/Desktop/incorporar solee/img/redes/instagram.svg" width="34px" height="34px" alt="instagram">
+			<img src="file:///C|/Users/SOLEDAD/Desktop/incorporar solee/img/redes/twitter.svg" width="34px" height="34px" alt="twitter">
+			<img src="file:///C|/Users/SOLEDAD/Desktop/incorporar solee/img/redes/linkedin.svg" width="34px" height="34px" alt="linkedin">
+			<img src="file:///C|/Users/SOLEDAD/Desktop/incorporar solee/img/redes/facebook.svg" width="34px" height="34px" alt="facebook">
+			<img src="file:///C|/Users/SOLEDAD/Desktop/incorporar solee/img/redes/youtube.svg" width="34px" height="34px" alt="youtube">
 		</section>
 	</div>
 	</footer>
 
   </body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-	
-	<script>
-			$('.carrousel_contenedor').slick({
-				slidesToShow: 5,
-				slidesToScroll: 1,
-				dots: true,
-				arrows: true,
-				autoplay: true,
-				autoplaySpeed: 2000
-			});
-	</script>
+
 </html>
