@@ -336,6 +336,7 @@ dl{
 	font-weight: 400;
 	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
+
 }
 
 .botones-1y2{
@@ -371,6 +372,8 @@ dl{
 	display:flex;
 	align-items: center;
 	flex-direction: column;
+
+  
 }
 
 .capacitacion img{
