@@ -29,14 +29,7 @@
 			</nav>
 	</header>
 	
-	<main>
-		<section>
-			<input class="buscador" type="text" placeholder="Puesto, empleo o palabra clave   Ciudad, localidad" >
-			<img src="img/iconos/lupa.svg" width="28px" height="28px" alt="lupa">
-			<button class="buscartrabajo" type="submit" >Buscar trabajo</button>
-		</section>
-
-		<section>
+	<section>
 			<div class="ventana-accesibilidad">
 				<img src="img/iconos/accesiblilidad.svg" width="111px" height="75px" alt="accesilididades">
 			</div>
@@ -44,7 +37,15 @@
 				<img src="img/iconos/chat.svg" width="111px" height="75px" alt="chat">
 			</div>
 		</section>
-		
+	
+	<main class="centrado">
+		<section class="navegador">
+			<img class="lupa" src="img/iconos/lupa.svg" width="28px" height="28px" alt="lupa">
+			<input class="buscador" type="text" placeholder="Puesto, empleo o palabra clave Ciudad, localidad">
+			<button class="buscatrabajo"><a class="buscar" href="#">Busca trabajo</a></button>
+				<!--<button class="buscartrabajo" type="submit" >Buscar trabajo</button>-->
+		</section>
+
 		<a href="https://www.ayudacv.es/landers?utm_source=google&utm_medium=cpc&utm_campaign=1855236922&utm_term=ayuda%20cv&utm_placement=" target="_blank"><!-- linkear personas/-->
 			<button class="cv">
 				<h2>Armá tu cv </h2>
@@ -64,7 +65,7 @@
 		
 		<article>
 			<h3>Capacitación laboral</h3>
-			<div class="centrado">
+			<div>
 				<img src="img/capacitacion.png" width="1185" height="288" alt="capacitacion-laboral"/>
 			</div>	
 			<button type="button" class="boton_ver_mas">ver más</button>
