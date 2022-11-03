@@ -318,16 +318,20 @@ dl{
 	font-family: 'Montserrat', sans-serif;
 }
 
+/*-----------------------------------------*/
+
+
 .buscador{
+	position: fixed;
 	width: 70%;
-	padding-left: 3%;
 	height: 60px;
-	border-radius: 20px;
+	padding-left: 3%;
+	border-radius: 10px;
 	border-color: #F68C0F;
 }
 .buscartrabajo{
 	width: 170px;
-	height: 60px;
+	height:auto;
 	background-color: #136284;
 	border-color: #136284;
 	color: #FFFFFF;
@@ -335,6 +339,16 @@ dl{
 }
 
 
+	
+.ventana-accesibilidad, .ventana-chat {
+	position: fixed;
+	bottom:300px;
+	right:50px;
+}
+	
+.ventana-chat{
+	bottom: 210px;
+}
 /*------------------------------carrousel--------------------*/
 
 .carrousel{
