@@ -87,8 +87,8 @@ nav ul li{
 
 .buscasempleo{
 	font-size: 1.125em;
-	font-weight:400;
-	color:#696969;
+	font-weight:bold;
+	color:#000000;
 	margin-right: 40px;
 }
 
@@ -126,7 +126,7 @@ nav ul li{
 	align-items: center;
 	padding: 20px;
 	margin: 50px;
-	border-top: 1px solid #999999;
+	border-top: 3px solid #999999;
 }
 
 .iconos-footer{
@@ -134,10 +134,10 @@ nav ul li{
 	flex-direction: column;
 	align-items: center;
 }
-
-h5{
-	font-size: 0.875em;
+h5 {
+	font-size: 1em;
 }
+
 /*------------------------------------index-----------------------------*/
 h1 {
 	width: 650px;
@@ -345,18 +345,6 @@ dl{
 	display: flex;
 	margin: 50px;
 }
-/*----------hover---------------------*/
-.cv:hover{
-	background-image: url(img/iconos/ilustracion-cv.svg);
-	background-repeat: no-repeat;
-	
-}
-.empresa:hover{
-	background-image: url(img/iconos/ilustracion-empresa.svg);
-	background-repeat: no-repeat;
-	
-	
-}
 
 .cv{
 	background-color: #F18A12;
@@ -542,7 +530,11 @@ dl{
 	transform: translateX(0);
 }
 	100% {
-	transform: translateX(calc(-250px * 7))
+	transform: translateX(calc(-250px * 7));
+	-webkit-transform: translateX(calc(-250px * 7));
+	-moz-transform: translateX(calc(-250px * 7));
+	-ms-transform: translateX(calc(-250px * 7));
+	-o-transform: translateX(calc(-250px * 7));
 }
 }
 
