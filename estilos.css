@@ -87,8 +87,8 @@ nav ul li{
 
 .buscasempleo{
 	font-size: 1.125em;
-	font-weight:bold;
-	color:#000000;
+	font-weight:400;
+	color:#696969;
 	margin-right: 40px;
 }
 
@@ -126,7 +126,7 @@ nav ul li{
 	align-items: center;
 	padding: 20px;
 	margin: 50px;
-	border-top: 3px solid #999999;
+	border-top: 1px solid #999999;
 }
 
 .iconos-footer{
@@ -135,7 +135,9 @@ nav ul li{
 	align-items: center;
 }
 
-
+h5{
+	font-size: 0.875em;
+}
 /*------------------------------------index-----------------------------*/
 h1 {
 	width: 650px;
@@ -342,6 +344,18 @@ dl{
 .botones-1y2{
 	display: flex;
 	margin: 50px;
+}
+/*----------hover---------------------*/
+.cv:hover{
+	background-image: url(img/iconos/ilustracion-cv.svg);
+	background-repeat: no-repeat;
+	
+}
+.empresa:hover{
+	background-image: url(img/iconos/ilustracion-empresa.svg);
+	background-repeat: no-repeat;
+	
+	
 }
 
 .cv{
