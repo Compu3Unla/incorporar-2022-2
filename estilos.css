@@ -346,6 +346,12 @@ dl{
 	margin: 50px;
 }
 
+/*--------------hover-----------------*/
+.cv:hover {
+	background-image: url(img/iconos/ilustracion-cv.svg);
+	background-repeat: no-repeat;
+}
+
 .cv{
 	background-color: #F18A12;
 	border-radius: 10px;
