@@ -87,11 +87,14 @@ nav ul li{
 
 .buscasempleo{
 	font-size: 1.125em;
-	font-weight:bold;
-	color:#000000;
+	font-weight:400;
+	color:#696969;
 	margin-right: 40px;
 }
 
+.ulheader{
+	margin-top: 50px;
+}
 .crearcuenta, .ingresar{
 	width: 170px;
 	height: 60px;
