@@ -6,6 +6,7 @@
 <link rel="icon" href="img/reduccion.svg">
 <link href="estilos.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
 </head>
 
 <body>
@@ -29,14 +30,35 @@
 			</nav>
 	</header>
 	<main class="centrado">
-		<section>
+		
+		<section class="chat_accesibilidad">
+			<div class="container_accesibilidad-chat">
 			<div class="ventana-accesibilidad">
-				<img src="img/iconos/accesiblilidad.svg" width="111px" height="75px" alt="accesilididades">
+			<img src="img/iconos/accesiblilidad.svg" width="111px" height="75px" alt="accesilididades">
 			</div>
 			<div class="ventana-chat">
 			<img src="img/iconos/chat.svg" width="111px" height="75px" alt="chat">
 			</div>
+			</div>
+			
+			<div class="chat-popup">
+			<div class="badge">1</div>
+			<div class="chat-area">
+			<div class="income-msg">
+			<img src="img/chat/icono-perfil-chat-naranja.png" class="avatar" alt="imagenusuario">
+			<span class="msg"> Bienvenido a incorporar. En que podemos ayudarte?</span>
+			</div>
+			</div>
+
+			<div class="input-area">
+			<input type="text">
+			<button class="emoji" id="emoji-btn" alt="emojis"> &#127773;</button>
+			<button class="submit" alt="enviar"> <i class="material-icons">send</i></button>
+			</div>
+			</div>
 		</section>
+		
+		
 		<section class="navegador">
 			<img class="lupa" src="img/iconos/lupa.svg" width="28px" height="28px" alt="lupa">
 			<input class="buscador" type="text" placeholder="Puesto, empleo o palabra clave Ciudad, localidad">
@@ -194,5 +216,7 @@
 	</footer>
 
 </body>
+	<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 
 </html>
