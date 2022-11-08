@@ -10,7 +10,6 @@
 }
 
 /* -------------------chat y accesibilidad------------------------*/
-	
 .ventana-accesibilidad, .ventana-chat {
 	position: fixed;
 	bottom:300px;
@@ -406,13 +405,16 @@ h1 {
 
 /*------------------------paginas empresas--------------------*/
 
-.completa-datos-empresa{
-	width: 1920px;
-	max-width: 93%;
-	margin: 3%;
-	height: 750px;
-	border-radius: 10px;
-	border: 2px solid #F68C0F;
+.completa-datos-empresa {
+    width: 1300px;
+    margin: 3%;
+    /* margin-left: 10%; */
+    height: 750px;
+    border-radius: 10px;
+    border: 2px solid #F68C0F;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .completa-datos-empresa h2, h3{
@@ -427,7 +429,7 @@ h1 {
 }
 
 .orden2{
-	width: 20%;
+	width: 10%;
 	padding-right: 440px;
 	display: flex;
 	flex-direction: column;
@@ -449,7 +451,7 @@ h1 {
 }
 
 .orden2 .boton-enviar{
-	max-width: 1920px;
+	max-width: 1300px;
 	width: 178px;
 	height: 61px;
 	margin-left: 155%;
@@ -463,10 +465,8 @@ h1 {
 }
 
 .ajustes-razonables{
-	width: 35%;
+	width: 45%;
     height: auto;
-    padding-left: 30%;
-    padding-right: 15%;
     padding-top: 71px;
     padding-bottom: 74px;
     display: flex;
@@ -476,12 +476,13 @@ h1 {
 
 .ajustes-razonables-iconos{
 	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-evenly;
-	padding-bottom: 100px;
-	padding-top: 70px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    padding-top: 70px;
+    width: 1300px;
 }
+
 dl{
 	display: flex;
 	flex-direction: column;
