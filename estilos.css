@@ -407,8 +407,8 @@ h1 {
 
 .completa-datos-empresa{
 	width: 93%;
+	margin: 3%;
 	height: 750px;
-	margin: 90px;
 	border-radius: 10px;
 	border: 2px solid #F68C0F;
 }
@@ -425,23 +425,22 @@ h1 {
 }
 
 .orden2{
-	width: 350px;
+	width: 20%;
 	padding-right: 440px;
 	display: flex;
 	flex-direction: column;
 }
 
 .orden2 input{
-	width: 200%;
-	height: 90px;
-	padding-left: 25px;
-	border-radius: 10px;
-	background-color: #F9F8FF;
-	border: 2px solid #136284;
+	width: 500px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #F9F8FF;
+    border: 2px solid #136284;
 }
 
 .orden2 label{
-	width: 200%;
+	width: 500px;
 	height: 50px;
 	padding-left: 15px;
 	padding-top: 70px;
@@ -456,15 +455,20 @@ h1 {
 	background-color: #136284;
 }
 
+.boton-enviar{
+	
+}
+
 .ajustes-razonables{
-	width: 75%;
-	height: auto;
-	padding-left: 15%;
-	padding-top: 50px;
-	padding-bottom: 100px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	width: 35%;
+    height: auto;
+    padding-left: 30%;
+    padding-right: 15%;
+    padding-top: 71px;
+    padding-bottom: 74px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .ajustes-razonables-iconos{
