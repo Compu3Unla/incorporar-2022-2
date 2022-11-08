@@ -499,6 +499,13 @@ dl{
 	border: 2px solid #136284;	
 }
 
+.ordenar{
+	display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-around;
+}
+
 /*----------------------------------HOME-----------------------------------*/
 
 .centrado{
