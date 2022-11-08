@@ -604,6 +604,11 @@ dl{
 	color: #FFFFFF;
 	font-size: 1.5em
 }
+
+.empresa:hover {
+	background-image: url(img/iconos/ilustracion-empresa.svg);
+	background-repeat: no-repeat;
+}
 .empresa{
 	background-color: #136284;
 	border-color: #136284;
