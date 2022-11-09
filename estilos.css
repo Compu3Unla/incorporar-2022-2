@@ -272,7 +272,6 @@ p{
 /*----------------------------body---------------------------------*/
 
 body{
-	
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -402,19 +401,30 @@ h1 {
 	margin-top: 10%;
 }
 
+/*------------------------Formularios--------------------*/
+form{
+	border: 2px solid #F68C0F;
+	border-radius: 10px;
+	width: 1200px;
+	height: 700px;
+	margin: 3%;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 /*------------------------paginas empresas--------------------*/
 
 .completa-datos-empresa {
-    width: 1300px;
-    margin: 3%;
-    /* margin-left: 10%; */
-    height: 750px;
-    border-radius: 10px;
-    border: 2px solid #F68C0F;
+	width: 1300px;
+	margin: 3%;
+	/* margin-left: 10%; */
+	height: 750px;
+	border-radius: 10px;
+	border: 2px solid #F68C0F;
 	display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+	flex-direction: column;
+	flex-wrap: nowrap;
 }
 
 .completa-datos-empresa h2, h3{
@@ -437,10 +447,10 @@ h1 {
 
 .orden2 input{
 	width: 500px;
-    height: 90px;
-    border-radius: 10px;
-    background-color: #F9F8FF;
-    border: 2px solid #136284;
+	height: 90px;
+	border-radius: 10px;
+	background-color: #F9F8FF;
+	border: 2px solid #136284;
 }
 
 .orden2 label{
@@ -466,21 +476,21 @@ h1 {
 
 .ajustes-razonables{
 	width: 45%;
-    height: auto;
-    padding-top: 71px;
-    padding-bottom: 74px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+	height: auto;
+	padding-top: 71px;
+	padding-bottom: 74px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
 }
 
 .ajustes-razonables-iconos{
 	display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 100px;
-    padding-top: 70px;
-    width: 1300px;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-bottom: 100px;
+	padding-top: 70px;
+	width: 1300px;
 }
 
 dl{
@@ -505,9 +515,9 @@ dl{
 
 .ordenar{
 	display: flex;
-    flex-direction: row;
-    padding: 50px;
-    justify-content: space-around;
+	flex-direction: row;
+	padding: 50px;
+	justify-content: space-around;
 }
 
 /*----------------------------------HOME-----------------------------------*/
@@ -593,6 +603,14 @@ dl{
 	color: #FFFFFF;
 	font-size: 1.5em
 }
+
+
+
+.empresa:hover {
+	background-image: url(img/iconos/ilustracion-empresa.svg);
+	background-repeat: no-repeat;
+}
+
 .empresa{
 	background-color: #136284;
 	border-color: #136284;
@@ -600,9 +618,9 @@ dl{
 	width: 580px;
 	height: 260px;
 	color: #FFFFFF;
-	font-size: 1.5em
-	}
-
+	font-size: 1.5em;
+	text-decoration: none;
+}
 
 /*----------------------------------------------*/
 
@@ -612,8 +630,6 @@ dl{
 	display:flex;
 	align-items: center;
 	flex-direction: column;
-
-
 }
 
 .capacitacion img{
@@ -736,7 +752,7 @@ dl{
 	width: 900px;
 	flex-direction: column-reverse;
 	justify-content: flex-end;
-	margin: 250px;
+	margin: 90px;
 }
 
 .carrousel::before {
@@ -750,10 +766,10 @@ dl{
 	transform: rotateZ(180deg);
 }
 
-.carrousel .carrousel_lista{
+.carrousel .carrousel_lista {
 	animation: scroll 40s linear infinite;
-	display: flex;
 	width: 100%;
+	display: flex;
 	text-align: center;
 }
 
@@ -765,18 +781,75 @@ dl{
 	z-index: 2;
 }
 
+
 @keyframes scroll {
-	0% {
-	transform: translateX(0);
+	0% { transform: translateX(0); }
+	
+	100% { transform: translateX(calc(-250px * 7))
+	
 }
-	100% {
-	transform: translateX(calc(-250px * 7));
-	-webkit-transform: translateX(calc(-250px * 7));
-	-moz-transform: translateX(calc(-250px * 7));
-	-ms-transform: translateX(calc(-250px * 7));
-	-o-transform: translateX(calc(-250px * 7));
- }
 }
 
 /*-------------------------------------------------*/
 
+@media screen and (max-width: 360px) {
+
+/*-------------------------h1 h2 h3 h4 h5 p-----------------------------*/
+
+	
+h1{
+	font-size: 1.3em;
+}
+	
+h2{
+	font-size: 1.25em;
+}
+
+h3{
+	font-size: 2.1em;
+}
+
+p{
+	font-size: 0.9em;
+}
+	
+/*------------------------------------index-----------------------------*/	
+
+h1 {
+	width: 100%;
+	margin-top: 0px;
+}
+
+.indexsection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 0px;
+}
+
+.foto {
+	padding-top: 80px;
+	padding-bottom: 30px;
+}	
+	
+.indexsection img {
+	width: 92%;
+	height: 92%
+}
+
+.botonesindex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.naranja{
+	width: 145px;
+	height: 100px;
+	font-size: 1.3em;
+	padding: 10px;
+	margin: 5px;
+}

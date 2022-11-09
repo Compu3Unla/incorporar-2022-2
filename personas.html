@@ -28,17 +28,37 @@
 			</ul>
 			</nav>
 	</header>
-    <main>
-    
-	</main>
-	
-	<section>
+    <main class="centrado">
+		<section class="navegador"><!-- buscador-->
+			<img class="lupa" src="img/iconos/lupa.svg" width="28px" height="28px" alt="lupa">
+			<input class="buscador" type="text" placeholder="Puesto, empleo o palabra clave Ciudad, localidad">
+			<button class="buscatrabajo"><a class="buscar" href="#">Busca trabajo</a></button>
+			<!--<button class="buscartrabajo" type="submit" >Buscar trabajo</button>-->
+		</section>
+		<form method="post" enctype="text/plain"><!-- Formulario-->
+			<h3>¡Completá tus datos!</h3>
+			<div>
+				<label for="nombre">* Nombre y apellido</label>
+				<input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombre completo" required>
+				<label for="direccion">* Dirección</label>
+				<input type="text" name="direccion" id="direccion" maxlength="30" placeholder="Ej: Rivadavia 3145, CABA" required>
+				<label for="numero">Número de teléfono</label>
+				<input type="tel" name="numero" id="numero" maxlength="11" placeholder="(54)1142484354" required>
+			</div>
+			<div>
+				<label for="email">* Correo electrónico</label>
+				<input type="email" id="email" name="email" placeholder="Ej: JuanGomez@gmail.com" required>
+				<label for="mensaje">* Si usted necesita ajustes razonables indique cuales</label>
+				<textarea name="mensaje" id="mensaje" maxlength="60" cols="60" rows="10"></textarea>
+				<input class="boton-enviar" type="submit" value="Enviar" formenctype="text/plain">
+			</div>
+			</form>
+		<section><!-- Herramienta de accesibilidad-->
 			<div class="container_accesibilidad-chat">
-			<div class="ventana-chat">
-				<img src="img/iconos/chat.svg" width="111px" height="75px" alt="chat">
+				<div class="ventana-chat">
+					<img src="img/iconos/chat.svg" width="111px" height="75px" alt="chat">
+				</div>
 			</div>
-			</div>
-			
 			<div class="chat-popup">
 			<div class="badge">1</div>
 			<div class="chat-area">
@@ -62,32 +82,32 @@
 		
 			<div class="accesibilidad-ventana" id="ventana">
 				<div id="cerrar"> <a href="javascript:cerrar()"><img src="img/iconos/equis.svg" width="25px" height="25px" alt="cruz"></a></div>
-	 			<h3>Herramientas accesibles</h3>
+				<h3>Herramientas accesibles</h3>
 				<div class="ordenaraccesibilidad">
-                <img src="img/iconos/a11y-esc-grises.svg" width="40px" height="39px" alt="escala-de-grises">
-                <a href="#"><h4>Escala de grises</h4></a>
+                	<img src="img/iconos/a11y-esc-grises.svg" width="40px" height="39px" alt="escala-de-grises">
+                	<a href="#"><h4>Escala de grises</h4></a>
                 </div>
-              <div class="ordenaraccesibilidad">
-                <img src="img/iconos/a11y-texto-grande.svg" width="34px" height="32" alt="texto-grande">
-                <a href="#"><h4>Aumentar texto</h4></a>
+            	<div class="ordenaraccesibilidad">
+                	<img src="img/iconos/a11y-texto-grande.svg" width="34px" height="32" alt="texto-grande">
+                	<a href="#"><h4>Aumentar texto</h4></a>
                 </div>
-              <div class="ordenaraccesibilidad">
-                <img src="img/iconos/a11y-texto-pequeño.svg" width="30px" height="32" alt="texto-chico">
-				   <a href="#"><h4>Disminuir Texto</h4></a>
+            	<div class="ordenaraccesibilidad">
+                	<img src="img/iconos/a11y-texto-pequeño.svg" width="30px" height="32" alt="texto-chico">
+					<a href="#"><h4>Disminuir Texto</h4></a>
                 </div>
-              <div class="ordenaraccesibilidad">
-                <img src="img/iconos/a11y-subrraya-enlaces.svg" width="46px" height="24" alt="subrayar-enlaces">
-				     <a href="#"><h4>Subrayar texto</h4></a>
+            	<div class="ordenaraccesibilidad">
+                	<img src="img/iconos/a11y-subrraya-enlaces.svg" width="46px" height="24" alt="subrayar-enlaces">
+				    <a href="#"><h4>Subrayar texto</h4></a>
                 </div>
-              <div class="ordenaraccesibilidad">
-                <img src="img/iconos/a11y-lectura-texto.svg" width="48px" height="38" alt="lector-de-texto">
-				   <a href="#"><h4>Lector de Texto</h4></a>
+            	<div class="ordenaraccesibilidad">
+                	<img src="img/iconos/a11y-lectura-texto.svg" width="48px" height="38" alt="lector-de-texto">
+					<a href="#"><h4>Lector de Texto</h4></a>
 				</div>
-		</div>
+			</div>
 		</section>
 	
 		</section>
-    </main>
+	</main>
     <footer class="footer">
 		<section>
 			<h5>Contactanos</h5>
