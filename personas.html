@@ -37,20 +37,22 @@
 		</section>
 		<form method="post" enctype="text/plain"><!-- Formulario-->
 			<h3>¡Completá tus datos!</h3>
-			<div>
-				<label for="nombre">* Nombre y apellido</label>
-				<input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombre completo" required>
-				<label for="direccion">* Dirección</label>
-				<input type="text" name="direccion" id="direccion" maxlength="30" placeholder="Ej: Rivadavia 3145, CABA" required>
-				<label for="numero">Número de teléfono</label>
-				<input type="tel" name="numero" id="numero" maxlength="11" placeholder="(54)1142484354" required>
-			</div>
-			<div>
-				<label for="email">* Correo electrónico</label>
-				<input type="email" id="email" name="email" placeholder="Ej: JuanGomez@gmail.com" required>
-				<label for="mensaje">* Si usted necesita ajustes razonables indique cuales</label>
-				<textarea name="mensaje" id="mensaje" maxlength="60" cols="60" rows="10"></textarea>
-				<input class="boton-enviar" type="submit" value="Enviar" formenctype="text/plain">
+			<div class="dividircolumna">
+				<div class="columna">
+					<label for="nombre">* Nombre y apellido</label>
+					<input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombre completo" required>
+					<label for="direccion">* Dirección</label>
+					<input type="text" name="direccion" id="direccion" maxlength="30" placeholder="Ej: Rivadavia 3145, CABA" required>
+					<label for="numero">Número de teléfono</label>
+					<input type="tel" name="numero" id="numero" maxlength="11" placeholder="(54)1142484354" required>
+				</div>
+				<div class="columna">
+					<label for="email">* Correo electrónico</label>
+					<input type="email" id="email" name="email" placeholder="Ej: JuanGomez@gmail.com" required>
+					<label for="mensaje">* Si usted necesita ajustes razonables indique cuales</label>
+					<textarea name="mensaje" id="mensaje" maxlength="60" cols="60" rows="10"></textarea>
+					<input class="boton" type="submit" value="Enviar" formenctype="text/plain">
+				</div>
 			</div>
 			</form>
 		<section><!-- Herramienta de accesibilidad-->

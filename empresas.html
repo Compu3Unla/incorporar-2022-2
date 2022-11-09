@@ -30,28 +30,25 @@
 		</nav>
 	</header>
 	<main>
-		<div class="centrado">
-			<section class="completa-datos-empresa">
-				<h3>¡Completa tus datos y te contactaremos!</h3>
-				<h2>Nuestras Impact Developers te brindarán la información que necesites</h2>
-				<!--<form method="post" action="" target="_blank" enctype="text/plain"></form>-->
-				<div class="orden1">
-					<div class="orden2">
+		<Form method="post" enctype="text/plain"> <!-- Formulario-->
+			<h3>¡Completa tus datos y te contactaremos!</h3>
+			<h2>Nuestras Impact Developers te brindarán la información que necesites</h2>
+				<div class="dividircolumna">
+					<div class="columna">
 						<label for="empresa"> * Nombre </label>
 						<input type="text" name="empresa" id="empresa" maxlength="50" placeholder="nombre completo" required>
 						<label for="institucion"> * Nombre de institución</label>
 						<input type="text" name="institucion" id="institucion" maxlength="50" placeholder="institución" required>
 					</div>
-					<div class="orden2">
-					<label for="email"> * Correo laboral<br></label>
-					<input type="email" name="email" id="email" placeholder="incorporar@gmail.com" required>
-					<label for="telefono">* Número de teléfono</label>
-					<input type="tel" name="telefono" id="telefono" placeholder="(54)1142484354" maxlength="8">
-					<input class="boton-enviar" type="submit" value="Enviar">
-				</div>
-				</div>
-			</section>
-		</div>
+					<div class="columna">
+						<label for="email"> * Correo laboral<br></label>
+						<input type="email" name="email" id="email" placeholder="incorporar@gmail.com" required>
+						<label for="telefono">* Número de teléfono</label>
+						<input type="tel" name="telefono" id="telefono" placeholder="(54)1142484354" maxlength="8">
+						<input class="boton" type="submit" value="Enviar">
+						</div>
+					</div>
+		</Form>
 		<section class="centrado">
 			<h3>¿Cómo apoyamos a las empresas inclusivas?</h3>
 			<p class="ajustes-razonables">Hemos creado un modelo para lograr medir, guiar y definir de manera práctica y eficaz, cada nivel de inclusión sociolaboral de personas con discapacidad en la que se encuentra una organización. Esto nos permite implementar estrategias concretas y brindar herramientas para contribuir al desarrollo de una organización diversa e inclusiva.</p> <!-- cambiar el h2 por p-->
