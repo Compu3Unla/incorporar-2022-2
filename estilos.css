@@ -371,7 +371,7 @@ h1 {
 }
 
 .botonesindex{
-	display: flex;
+	margin-top: 50px;
 }
 
 .naranja{
@@ -398,7 +398,7 @@ h1 {
 	justify-content: center;
 	align-content: center;
 	padding-bottom: 10%;
-	margin-top: 10%;
+	margin-top: 3%;
 }
 
 /*-------------------cononcenos------------*/
@@ -600,11 +600,12 @@ form h2{
 .ajustes-razonables{
 	width: 50%;
 	height: auto;
-	padding-top: 71px;
-	padding-bottom: 74px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
+	text-align: center
 }
 
 .ajustes-razonables-iconos{
@@ -630,10 +631,13 @@ dl{
 	width: 100%;
 	height: 80px;
 	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 20px;
 	border: 2px solid #136284;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 
 .ordenar{
@@ -724,7 +728,7 @@ dl{
 	width: 580px;
 	height: 260px;
 	color: #FFFFFF;
-	font-size: 1.5em
+	font-size: 1.5em;
 }
 
 
@@ -784,7 +788,7 @@ dl{
 }
 
 .cuadro h3{
-	padding-top: 20px;
+	padding-top: 30px;
 	display: flex;
     flex-direction: column;
     align-items: center;
@@ -792,7 +796,7 @@ dl{
 
 .valores {
 	font-size: 1.3em;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-top: 30px;
     display: flex;
     width: 1197px;
@@ -820,6 +824,7 @@ dl{
 	flex-direction: column;
 	align-items: center;
 	font-size: 1.3em;
+	padding-bottom: 40px;
 }
 
 .inclusion{
@@ -827,11 +832,14 @@ dl{
 	display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 90px;
+    margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 90px;
+	margin-bottom: 50px
 }
 
 .inclusion h3{
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .video {
@@ -848,7 +856,6 @@ dl{
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding-bottom: 15px;
 }
 
 .trabajadores1 {
@@ -925,7 +932,9 @@ dl{
 /*-------------------------------------------------*/
 
 @media screen and (max-width: 360px) {
-}
+
+
+
 /*-------------------------h1 h2 h3 h4 h5 p-----------------------------*/
 
 	
@@ -988,6 +997,7 @@ h1 {
 
 
 
+
 /*-----capacitacionlaboral----*/
 
 .cards_circulares{
@@ -996,4 +1006,6 @@ h1 {
 	padding: 45px;
 	border-radius: 50%;
 	border: 3px solid #136284;
+}
+
 }
