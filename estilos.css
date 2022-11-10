@@ -371,7 +371,7 @@ h1 {
 }
 
 .botonesindex{
-	display: flex;
+	margin-top: 50px;
 }
 
 .naranja{
@@ -398,7 +398,7 @@ h1 {
 	justify-content: center;
 	align-content: center;
 	padding-bottom: 10%;
-	margin-top: 10%;
+	margin-top: 3%;
 }
 /*-------------------hover------------------------------*/
 .cv, .empresa{
@@ -844,7 +844,9 @@ dl{
 /*-------------------------------------------------*/
 
 @media screen and (max-width: 360px) {
-}
+
+
+
 /*-------------------------h1 h2 h3 h4 h5 p-----------------------------*/
 
 	
@@ -905,6 +907,8 @@ h1 {
 	margin: 5px;
 }
 
+
+
 /*----------conocenos-------*/
 
 .apartado_conocenos{
@@ -925,4 +929,6 @@ h1 {
 	padding: 45px;
 	border-radius: 50%;
 	border: 3px solid #136284;
+}
+
 }
