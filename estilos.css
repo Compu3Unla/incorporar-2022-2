@@ -400,6 +400,94 @@ h1 {
 	padding-bottom: 10%;
 	margin-top: 3%;
 }
+
+/*-------------------cononcenos------------*/
+.conocenosp{
+	width: 800px;
+	margin: 35px;
+}
+
+.apartado_conocenos{
+	width: auto 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 150px;
+}
+
+/*----------conocenos-------*/
+
+.apartado_conocenos{
+	width: auto 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 150px;
+}
+
+.conocenosp{
+	width: 800px;
+	margin: 35px;
+}
+
+.apartado_conocenos{
+	width: auto 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 150px;
+}
+/*----------conocenos-------*/
+
+.apartado_conocenos{
+	width: auto 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 150px;
+}
+
+.conocenosp{
+	width: 800px;
+	margin: 35px;
+}
+
+.apartado_conocenos{
+	width: auto 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 150px;
+}
+/*----------conocenos-------*/
+
+.apartado_conocenos{
+	width: auto 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 150px;
+}
+
+.conocenosp{
+	width: 800px;
+	margin: 35px;
+}
+
+.apartado_conocenos{
+	width: auto 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 150px;
+}
 /*-------------------hover------------------------------*/
 .cv, .empresa{
 	background-color: #F18A12;
@@ -908,17 +996,6 @@ h1 {
 }
 
 
-
-/*----------conocenos-------*/
-
-.apartado_conocenos{
-	width: auto 0;
-	height: 50px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding: 150px;
-}
 
 
 /*-----capacitacionlaboral----*/
