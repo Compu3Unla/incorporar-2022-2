@@ -400,7 +400,52 @@ h1 {
 	padding-bottom: 10%;
 	margin-top: 10%;
 }
+/*-------------------hover------------------------------*/
+.cv, .empresa{
+	background-color: #F18A12;
+	border-color: #F18A12;
+	border-radius: 10px;
+	width: 580px;
+	height: 260px;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-weight:600;
+}
 
+.empresa{
+	background-color: #136284;
+	color: #136284;
+}
+
+.cv:hover {
+	background-image: url(img/iconos/ilustracion-cv.svg);
+	background-repeat: no-repeat;
+}
+
+.empresa:hover{
+	background-image: url("img/iconos/ilustracion-empresa.svg");
+	background-repeat: no-repeat;
+}
+
+
+.cvh2:hover{
+	color: #FFFFFF;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+    align-items: flex-end;
+	
+}
+
+
+button div h2{
+	display: flex;
+    flex-direction: column;
+    align-content: flex-end;  
+	color: #FFFFFF;
+	font-weight: 600;
+	width: 250px;
+}
 /*------------------------Formularios--------------------*/
 form{
 	border: 2px solid #F68C0F;
