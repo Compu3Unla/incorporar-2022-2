@@ -698,7 +698,7 @@ dl{
 	position:relative;
 	width: 178px;
 	height: 60px;
-	right: -30%;
+	left: 300px;
 	bottom: 100px;
 	background-color: #136284;
 	border-radius: 10px;
@@ -707,8 +707,9 @@ dl{
 	font-weight: 400;
 	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
-
+	cursor: pointer
 }
+
 
 .botones-1y2{
 	display: flex;
@@ -719,6 +720,13 @@ dl{
 .cv:hover {
 	background-image: url(img/iconos/ilustracion-cv.svg);
 	background-repeat: no-repeat;
+}
+
+.boton_ver_mas:hover {
+	background-color: #FFFFFF;
+	color: #136284;
+	font-weight: 500;
+	border: 2px solid #136284
 }
 
 .cv{
@@ -851,19 +859,25 @@ dl{
 
 
 .trabajadores {
-	 width: 1197px;
+	width: 1197px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
 }
 
+.trabajadores img{
+	border: 2px solid #F68C0F;
+	border-radius: 30px;
+}
+
 .trabajadores1 {
 	width: 246px;
 	display: flex;
-	align-items:center;
+	align-items: center;
 	flex-direction: column;
 	justify-content:space-around;
+	padding-top: 7px;
 }
 
 
