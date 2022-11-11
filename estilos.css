@@ -9,7 +9,7 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-/* -------------------chat y accesibilidad------------------------*/
+
 
 /* -------------------chat y accesibilidad------------------------*/
 .ventana-accesibilidad, .ventana-chat {
@@ -467,20 +467,6 @@ h1 {
 	margin-top: 3%;
 }
 
-/*-------------------cononcenos------------*/
-.conocenosp{
-	width: 800px;
-	margin: 35px;
-}
-
-.apartado_conocenos{
-	width: auto 0;
-	height: 50px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding: 150px;
-}
 
 /*----------conocenos-------*/
 
@@ -498,62 +484,6 @@ h1 {
 	margin: 35px;
 }
 
-.apartado_conocenos{
-	width: auto 0;
-	height: 50px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding: 150px;
-}
-/*----------conocenos-------*/
-
-.apartado_conocenos{
-	width: auto 0;
-	height: 50px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding: 150px;
-}
-
-.conocenosp{
-	width: 800px;
-	margin: 35px;
-}
-
-.apartado_conocenos{
-	width: auto 0;
-	height: 50px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding: 150px;
-}
-/*----------conocenos-------*/
-
-.apartado_conocenos{
-	width: auto 0;
-	height: 50px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding: 150px;
-}
-
-.conocenosp{
-	width: 800px;
-	margin: 35px;
-}
-
-.apartado_conocenos{
-	width: auto 0;
-	height: 50px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	padding: 150px;
-}
 /*-------------------hover------------------------------*/
 .cv, .empresa{
 	background-color: #F18A12;
@@ -723,6 +653,7 @@ dl{
 	height: 300px;
 	margin: 2%;
 	font-size: 1.25em;
+	padding: 10px;
 }
 .puestostrabajo p {
 	font-size: 1em;
@@ -772,6 +703,19 @@ dl{
 	padding: 10px;
 }
 
+.anchodepuestos p {
+	padding: 5px;
+}
+
+.anchodepuestos_b p{
+	padding: 1px;
+}
+
+.anchodepuestos_b{
+	width: 480px;
+	padding: 10px;
+}
+
 .botonenviar-personas{
 	width: 120px;
 	height: 50px;
@@ -783,15 +727,16 @@ dl{
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .boton-a{
 	display: flex;
-    justify-content: flex-end;
-    padding-bottom: 0px;
-    margin: 9px;
+	justify-content: flex-end;
+	padding-bottom: 0px;
+	margin: 9px;
+	padding: 5px;
 }
 
 .botonenviar-personas:hover{
