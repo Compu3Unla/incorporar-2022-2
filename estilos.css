@@ -1006,9 +1006,36 @@ dl{
 
 
 
-/*-----------------------------------------*/
+/*----------------------HTML-formulario------------------*/
+.imagenformulario{
+	background-image: url(img/ilus-form-2.svg);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 650px;
+	display: flex;
+	align-items: center;
+	animation: primero 10s ease-in-out infinite;
+	-webkit-animation: primero 10s ease-in-out infinite;
+}
 
-
+@keyframes primero{
+	0% {
+		background-image: url("img/ilus-form-1.svg");
+	}
+	50% {
+		background-image: url("img/ilus-form-2.svg");
+	}
+	100% {
+		background-image: url("img/ilus-form-1.svg");
+	}
+	0% {
+		background-image: url("img/ilus-form-1.svg");
+	}
+}
+.confirmado {
+	width: 800px;
+	color: #136284;
+}
 
 /*------------------------------carrousel--------------------*/
 
