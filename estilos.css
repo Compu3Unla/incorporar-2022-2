@@ -378,6 +378,7 @@ nav ul li{
 }
 
 /*---------------------------Footer-----------------------------------*/
+
 .footer{
 	width: 95%;
 	height: auto;
@@ -554,7 +555,9 @@ h1 {
 	flex-direction: column;
 	padding: 150px;
 }
+
 /*-------------------hover------------------------------*/
+
 .cv, .empresa{
 	background-color: #F18A12;
 	border-color: #F18A12;
@@ -602,7 +605,9 @@ button div h2{
 	font-weight: 600;
 	width: 250px;
 }
+
 /*------------------------Formularios--------------------*/
+
 form{
 	border: 2px solid #F68C0F;
 	border-radius: 10px;
@@ -840,6 +845,7 @@ dl{
 }
 
 /*-------------------------------*/
+
 .buscatrabajo{ 
 	width: 190px;
 	height: 76px;
@@ -882,6 +888,7 @@ dl{
 }
 
 /*--------------hover-----------------*/
+
 .cv:hover {
 	background-image: url(img/iconos/ilustracion-cv.svg);
 	background-repeat: no-repeat;
@@ -1386,19 +1393,49 @@ header{
 }
 	
 .cv{
-	width: 315px;;
+	width: 315px;
 	height: 172px;
-	font-size: 1.3em;
 	margin-bottom: 10px;
 	padding: 20px;
+	padding-bottom: 100px;
+	text-align: left;
+	font-size: 1em;
+	pointer-events:none;
+	background-image: url("img/iconos/ilustracion-cv.svg");
 }
-	
+
+.cv{
+	background-color: #F18A12;
+	border-color: #F18A12;
+	border-radius: 10px;
+	color: #FFFFFF;
+	padding-right: 90px;
+	padding-bottom: 140px;
+	font-size: 1em;
+	font-weight: 500;
+
+}
+
 .empresa{
-	font-size: 1.3em;
 	width: 315px;
 	height: 172px;
 	padding-left: 20px;
+	text-align: left;
+	font-size: 1em;
+	padding-top: 10px;
+	padding-bottom: 180px;
+	pointer-events:none;
+	background-image: url("img/iconos/ilustracion-empresa.svg")
 }	
+
+.empresa{
+	background-color: #136284;
+	color: #FFFFFF;
+	padding-right: 15px;
+	padding-bottom: 105px;
+}
+	
+
 
 	/*----------------------------------------------*/
 .capacitacion-mobile {
