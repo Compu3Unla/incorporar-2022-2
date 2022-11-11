@@ -661,6 +661,42 @@ dl{
 	justify-content: space-around;
 }
 
+/*----------------------------------Puestos de trabajo, html personas-----------------------------------*/
+.puestostrabajo{
+	border: 2px solid #136284;
+	border-radius: 10px;
+	width: 500px;
+	height: 300px;
+	margin: 2%;
+	font-size: 1.25em;
+}
+.puestostrabajo p {
+	font-size: 1em;
+}
+.hola{
+	display: flex;
+    justify-content: space-between;
+	margin: 10px;
+}
+.ordenpuestos{
+	width: 1200px;
+	height: auto;
+	display: flex;
+}
+.puestostrabajo span{
+	color: #136284;
+	font-weight: 500;
+}
+.hola h4 {
+	font-weight: bold;
+}
+.puestosancho{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+
 /*----------------------------------HOME-----------------------------------*/
 
 .centrado{
