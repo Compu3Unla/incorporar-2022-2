@@ -371,6 +371,35 @@ nav ul li{
 }
 
 /*------------------------------------index-----------------------------*/
+
+.img-bienvenida{
+	padding: 30px;
+    width: 401px;
+    height: 401px;
+    background-image: url("img/ilus1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: img-bienvenida alternate 1.5s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes img-bienvenida{
+
+0% {
+    background-image: url("img/ilus2.png");
+}
+50% {
+    background-image: url("img/ilus3.png");
+}
+100% {
+	background-image: url("img/ilus4.png");
+}	
+0% {
+    background-image: url("img/ilus2.png");
+}
+}
+
 h1 {
 	width: 650px;
 	margin-top: 10%;
