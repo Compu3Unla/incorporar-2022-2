@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -10,30 +11,76 @@
 </head>
 
 <body>
-	<header>
-		<nav>
-			<div>
-				<a img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"><img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"></a>
-			</div>
-			<div class="nav-botones-derecho">
-				<a class="buscasempleo" href="#">¿Buscas empleo?</a>
-				<button class="crearcuenta"><a class="crear" href="#">Crear cuenta</a></button>
-				<button class="ingresar"><a class="aingresar" href="#">Ingresar</a></button>
-			</div>
-		</nav>
-			<nav>
-			<ul class="ulheader">	
-				<li><a class="buscasempleo" href="#">Conocenos</a></li>
-				<li><a class="buscasempleo" href="#">¿Qué hacemos?</a></li>
-				<li><a class="buscasempleo" href="#">Informate</a></li>
-			</ul>
-			</nav>
-	</header>
+	<div>
+		<a img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"><img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"></a>			
+	</div>
+	
 	
 	<main>
+		<h4> Conocé por qué incorporar </h4>
+		<ul class="galeria">
+			<li> <a href="#img1"> <img src="img/galeriaprueba/1.jpg"  width="500px" height="300px" alt="img1"></a></li>
+			<li> <a href="img2"> <img src="img/galeriaprueba/2.svg"  width="500px" height="300px" alt="img1"></a></li>
+			<li> <a href="img3"> <img src="img/galeriaprueba/4.jpg"  width="500px" height="300px" alt="img1"></a></li>
+			<li> <a href="img4"> <img src="img/galeriaprueba/7.svg"  width="500px" height="300px" alt="img1"></a></li>
+		</ul>
+		<div class="modal" id="img1">
+			<h3>Acompañanos</h3>
+			<div class="imagen">
+				<a href="#img4">&#60</a>
+				<a href="#img2"><img src="img/galeriaprueba/1.jpg"  width="500px" height="300px" alt="img1"></a>
+				<a href="#img2">></a>
+			</div>
+			<a class="cierre" href="">X</a>
+		</div>
+		
+		<div class="modal" id="img2">
+			<h3>Acompañanos</h3>
+			<div class="imagen">
+				<a href="#img1">&#60</a>
+				<a href="#img3"><img src="img/galeriaprueba/2.svg"  width="500px" height="300px" alt="img1"></a>
+				<a href="#img3">></a>
+			</div>
+			<a class="cierre" href="">X</a>
+		</div>
+		
+		<div class="modal" id="img3">
+			<h3>Acompañanos</h3>
+			<div class="imagen">
+				<a href="#img2">&#60</a>
+				<a href="#img4"><img src="img/galeriaprueba/4.jpg"  width="500px" height="300px" alt="img1"></a>
+				<a href="#img4">></a>
+			</div>
+			<a class="cierre" href="">X</a>
+		</div>
+		
+			<div class="modal" id="img4">
+			<h3>Acompañanos</h3>
+			<div class="imagen">
+				<a href="#img3">&#60</a>
+				<a href="#img1
+						 "><img src="img/galeriaprueba/7.svg"  width="500px" height="300px" alt="img1"></a>
+				<a href="#img1">></a>
+			</div>
+			<a class="cierre" href="">X</a>
+		</div>
+<!------------------------------------>		
+		
 		<section class="apartado_conocenos">
+		<div class="columna_conocenos">
 		<h3>¿Que es incorporar?</h3>
 		<p>Incorporar es una ong orientado a fines de inclusión e insertación de personas con discapacidad en el mundo laboral redefiniendo al concepto de discapacidad, que no se limita a una deficiencia en particular sino a diferentes barreras sociales las que representan el mayor impedimento, entre ellas la falta de acceso universal a la información laboral, desempleo y tasa baja de inclusión</p>
+		</div>
+			
+		<div class="columna_conocenos">
+		<h4>Objetivos de desarrollo sostenible (ODS)</h4>
+		<p>Hacemos incapie en el rol clave de objetivos de desarollo sustentable en relación a igualdad e inclusion de trabajo y a nivel educativo</p>
+		</div>
+		<!---
+		<div>
+		<h3>Objetivos ODS</h3>
+		<p>Incorporar es una ong orientado a fines de inclusión e insertación de personas con discapacidad en el mundo laboral redefiniendo al concepto de discapacidad, que no se limita a una deficiencia en particular sino a diferentes barreras sociales las que representan el mayor impedimento, entre ellas la falta de acceso universal a la información laboral, desempleo y tasa baja de inclusión</p>
+		</div>--->
 		</section>
 		<section><!-- Herramienta de accesibilidad-->
 			<div class="container_accesibilidad-chat">
@@ -56,38 +103,72 @@
 			<button class="submit" alt="enviar"> <i class="material-icons">send</i></button>
 			</div>
 			</div>
-	
-			<div id="contenedor-accesible">
-			<a href="javascript:abrir()"> <img src="img/iconos/accesiblilidad.svg" width="111px" height="75px" alt="accesible"> </a>
+			
+		</section>
+		<section>
+			<section id="contenedor-accesible">
+			<a href="javascript:abrir()"> <img src="img/iconos/accesiblilidad.svg" width="111px" height="75" alt="accesible"> </a>
 		
 			<div class="accesibilidad-ventana" id="ventana">
 				<div id="cerrar"> <a href="javascript:cerrar()"><img src="img/iconos/equis.svg" width="25px" height="25px" alt="cruz"></a></div>
-				<h3>Herramientas accesibles</h3>
+				<section class="h4accesible"><h4>Herramientas accesibles</h4></section>
 				<div class="ordenaraccesibilidad">
 					<img src="img/iconos/a11y-esc-grises.svg" width="40px" height="39px" alt="escala-de-grises">
 					<a href="#"><h4>Escala de grises</h4></a>
 				</div>
 				<div class="ordenaraccesibilidad">
-					<img src="img/iconos/a11y-texto-grande.svg" width="34px" height="32px" alt="texto-grande">
-					<a href="#"><h4>Aumentar texto</h4></a>
+				<img src="img/iconos/a11y-texto-grande.svg" width="34px" height="32" alt="texto-grande">
+				<a href="#"><h4>Aumentar texto</h4></a>
 				</div>
 				<div class="ordenaraccesibilidad">
-				<img src="img/iconos/a11y-texto-pequeño.svg" width="30px" height="32px" alt="texto-chico">
+					<img src="img/iconos/a11y-texto-pequeño.svg" width="30px" height="32" alt="texto-chico">
 					<a href="#"><h4>Disminuir Texto</h4></a>
 				</div>
 				<div class="ordenaraccesibilidad">
-					<img src="img/iconos/a11y-subrraya-enlaces.svg" width="46px" height="24px" alt="subrayar-enlaces">
-				<a href="#"><h4>Subrayar texto</h4></a>
+				<img src="img/iconos/a11y-subrraya-enlaces.svg" width="46px" height="24" alt="subrayar-enlaces">
+					<a href="#"><h4>Subrayar texto</h4></a>
 				</div>
-					<div class="ordenaraccesibilidad">
-					<img src="img/iconos/a11y-lectura-texto.svg" width="48px" height="38px" alt="lector-de-texto">
+				<div class="ordenaraccesibilidad">
+					<img src="img/iconos/a11y-lectura-texto.svg" width="48px" height="38" alt="lector-de-texto">
 					<a href="#"><h4>Lector de Texto</h4></a>
 				</div>
 			</div>
-		</div>
-	
+		</section>
 		</section>
 	</main>
+	
+	<footer class="footer">
+		<section>
+			<h5>Contactanos</h5>
+			<h5>Sobre nosotros</h5>
+			<h5>Términos y Condiciones</h5>
+			<h5>Todos los derechos reservados</h5>
+	  </section>
+		<section>
+			<h5>Informate</h5>
+			<h5>Recursos</h5>
+			<h5>Casos de éxito</h5>
+			<h5>©2022 IncorporAR.com </h5>
+		</section>
+		<section>
+			<h5>Sol Martinez</h5>
+			<h5>Natalia Martinez</h5>
+			<h5>Soledad Quintana</h5>
+			<h5>Micaela Balmaceda</h5>
+		</section>
+		<div class="iconos-footer">
+		<section>
+			<img src="img/logo-footer.svg" width="246px" height="44px" alt="logo">
+		</section>
+		<section>
+			<img src="img/redes/instagram.svg" width="34px" height="34px" alt="instagram">
+			<img src="img/redes/twitter.svg" width="34px" height="34px" alt="twitter">
+			<img src="img/redes/linkedin.svg" width="34px" height="34px" alt="linkedin">
+			<img src="img/redes/facebook.svg" width="34px" height="34px" alt="facebook">
+			<img src="img/redes/youtube.svg" width="34px" height="34px" alt="youtube">
+		</section>
+	</div>
+</footer>
 	
 </body>
 	<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
@@ -103,3 +184,4 @@
 		</script>
 	
 </html>
+

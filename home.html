@@ -12,29 +12,47 @@
 
 <body>
 	<header>
-		<nav>
-			<div>
-				<a img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"><img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"></a>
-			</div>
-			<div class="nav-botones-derecho">
-				<a class="buscasempleo" href="#">¿Buscas empleo?</a>
-				<button class="crearcuenta"><a class="crear" href="#">Crear cuenta</a></button>
-				<button class="ingresar"><a class="aingresar" href="#">Ingresar</a></button>
-			</div>
-		</nav>
+		<div class="nav-desk">
 			<nav>
-			<ul class="ulheader">	
-				<li><a class="buscasempleo" href="#">Conocenos</a></li>
-				<li><a class="buscasempleo" href="#">¿Qué hacemos?</a></li>
-				<li><a class="buscasempleo" href="#">Informate</a></li>
-			</ul>
+				<a img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"><img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html"></a>
+				<div class="nav-botones-derecho">
+					<a class="buscasempleo" href="#">¿Buscas empleo?</a>
+					<button class="crearcuenta"><a class="crear" href="#">Crear cuenta</a></button>
+					<button class="ingresar"><a class="aingresar" href="#">Ingresar</a></button>
+				</div>
 			</nav>
+			<nav>
+				<ul class="ulheader">	
+					<li><a class="buscasempleo" href="conocenos.html">Conocenos</a></li>
+					<li><a class="buscasempleo" href="#">¿Qué hacemos?</a></li>
+					<li><a class="buscasempleo" href="#">Informate</a></li>
+				</ul>
+			</nav>
+		</div>
+		<nav class="nav-mobile">
+			<div>
+				<img class="logo" src="img/logo-responsive.svg" width="123px" height="20.5px" alt="logo-responsive">
+			</div>
+			<input type="checkbox" id="check">
+			<label for="check" class="bar-btn">
+				<a><img src="img/menu.svg" width="19.5px" height="14.5px" alt="menu"></a>
+			</label>
+			<ul class="lista-nav">
+				<li><a>Crear cuenta</a></li>
+				<li><a>Ingresar</a></li>
+				<li><a>¿Buscas empleo?</a></li>
+				<li><a>Conocenos</a></li>
+				<li><a>¿Qué hacemos?</a></li>
+				<li><a>Informate</a></li>
+			</ul>
+		</nav>
 	</header>
+	
 	<main class="centrado">
 		<section class="navegador">
 			<img class="lupa" src="img/iconos/lupa.svg" width="28px" height="28px" alt="lupa">
 			<input class="buscador" type="text" placeholder="Puesto, empleo o palabra clave Ciudad, localidad">
-			<button class="buscatrabajo"><a class="buscar" href="#">Busca trabajo</a></button>
+			<button class="buscatrabajo"><a class="buscar" href="personas.html">Busca trabajo</a></button>
 			<!--<button class="buscartrabajo" type="submit" >Buscar trabajo</button>-->
 		</section>
 		<section class="botones-1y2">
@@ -42,7 +60,8 @@
 				<button class="cv">
 					<div class="cvh2">
 					<h2>Armá tu cv </h2>
-					<h2>Te ayudamos con el proceso</h2>
+					<h2>Te ayudamos<br>
+					con el proceso</h2>
 					</div>
 				</button>
 			</a>
@@ -50,19 +69,26 @@
 				<button class="empresa">
 				<div class="cvh2">
 					<h2>Empresa</h2>
-					<h2>Sumate al cambio social</h2>
+					<h2>Sumate al cambio<br>
+					 social</h2>
 				</div>
 				</button>
 			</a>
 		</section>
 		
-			<article class="capacitacion">
+		<section class="capacitacion">
+			<article>
 				<h3>Capacitación laboral</h3>
-				<img src="img/capacitacion.png" width="1185" height="288" alt="capacitacion-laboral"/>
-				<a href="https://www.argentina.gob.ar/tema/trabajar/capacitacion" target="_blank">
-					<button type="button" class="boton_ver_mas">ver más</button>
-				</a>
+				<img class="capacitacion-imagen" src="img/capacitacion.png" width="1185" height="288" alt="capacitacion-laboral"/>
 			</article>
+			<article>
+				<div class="capacitacion-mobile">
+				<img src="img/capacitacion-mobile.png" width="315" height="127" alt=""/>
+				</div>
+				<a href="https://www.argentina.gob.ar/tema/trabajar/capacitacion" target="_blank">
+				<button type="button" class="boton_ver_mas">ver más</button></a>
+			</article>
+			</section>
 		<section class="cuadro">
 			<h3>¿Cúales son los valores de Incorporar?</h3>
 			<article class="valores">
@@ -84,39 +110,40 @@
 				</div>
 			</article>
 		</section>
-		<article class="inclusion">
+		<section class="inclusion">
 			<h3>Historias de inclusión laboral</h3>
 			<div class="video">
 				<iframe width="925" height="520" src="https://www.youtube.com/embed/HOn7i7w-OiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!-- sacar esta img y poner etiqueta de/-->
 			</div>
-			<section class="trabajadores">
+			<div class="video-mobile">
+				<iframe width="315" height="177" src="https://www.youtube.com/embed/HOn7i7w-OiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!-- sacar esta img y poner etiqueta de/-->
+			</div>
+		</section>
+		<section class="trabajadores">
+			<div class="trabajadores1">
 				<img src="img/mariana.png" width="246px" height="168px" alt="empleado1">
+				<h4>Mariana 23 Años</h4>
+				<p>Contadora en Banco Galicia</p>
+			</div>
+			<div class="trabajadores1">
 				<img src="img/juan.png" width="246px" height="168px" alt="empleado2">
+				<h4>Juan 21 Años</h4>
+				<p>Programador de videojuegos</p>
+			</div>
+			<div class="trabajadores1">
 				<img src="img/martin.png" width="246px" height="168px" alt="empleado3">
+				<h4>Martín 29 Años</h4>
+				<p>Atención al público en Telecomunicaciones</p>
+			</div>
+			<div class="trabajadores1">
 				<img src="img/lucas.png" width="246px" height="168px" alt="empleado4">
-			</section>
-			<section class="trabajadores">
-				<div class="trabajadores1">
-					<h4>Mariana 23 Años</h4>
-					<p>Contadora en Banco Galicia</p>
-				</div>
-				<div class="trabajadores1">
-					<h4>Juan 21 Años</h4>
-					<p>Programador de videojuegos</p>
-				</div>
-				<div class="trabajadores1">
-					<h4>Martín 29 Años</h4>
-					<p>Atención al público en Telecomunicaciones</p>
-				</div>
-				<div class="trabajadores1">
-					<h4>Lucas 32 Años</h4>
-					<p>Asesora en Venta de muebles y raíces</p>
-				</div>
-			</section>
-		</article>
-		<section class="centrado">
+				<h4>Lucas 32 Años</h4>
+				<p>Asesora en Venta de muebles y raíces</p>
+			</div>
+		</section>
+		<section class="centrado-empresas">
 			<h3>Empresas que apoyan Incorporar</h3>
-			<div class="centrado">
+			<div class="centrado-empresas">
 				<p>Trabajamos con las empresas líderes en nuestro país creando valor compartido.</p>
 			</div>
 			<div class="carrousel">
@@ -194,19 +221,20 @@
 		
 	</main> 
 	<footer class="footer">
-		<section>
+		<section class="footer1">
 			<h5>Contactanos</h5>
 			<h5>Sobre nosotros</h5>
 			<h5>Términos y Condiciones</h5>
 			<h5>Todos los derechos reservados</h5>
 		</section>
-		<section>
+		
+		<section footer2>
 			<h5>Informate</h5>
 			<h5>Recursos</h5>
 			<h5>Casos de éxito</h5>
-			<h5>©2022 IncorporAR.com </h5>
+			
 		</section>
-		<section>
+		<section class="footer3">
 			<h5>Sol Martinez</h5>
 			<h5>Natalia Martinez</h5>
 			<h5>Soledad Quintana</h5>
@@ -214,7 +242,7 @@
 		</section>
 		<div class="iconos-footer">
 		<section>
-			<img src="img/logo-footer.svg" width="246px" height="44px" alt="logo">
+			<img class="logo-desk" src="img/logo-footer.svg" width="246px" height="44px" alt="logo">
 		</section>
 		<section>
 			<img src="img/redes/instagram.svg" width="34px" height="34px" alt="instagram">
