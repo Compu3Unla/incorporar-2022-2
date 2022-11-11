@@ -340,16 +340,37 @@ nav ul li{
 	border: 2px solid #136284;
 }
 
+
 .crearcuenta{
 	background-color: #F9F8FF;
+	
+}
+
+.crearcuenta:hover{
+	border: 2px solid #F68C0F;
 }
 
 .crear{
 	color:#136284;
 }
 
+.crear:hover{
+	color: #F68C0F;
+	font-weight: 500;
+}
+
 .ingresar{
 	background-color: #136284;
+}
+
+.ingresar:hover{
+	background-color: #FFFFFF;
+	border: 2px solid #136284;
+}
+
+.aingresar:hover{
+	color: #136284;
+	font-weight: 500;
 }
 
 .aingresar{
@@ -827,6 +848,12 @@ dl{
 	border: 3px solid #136284;
 	background-color: #136284;
 }
+
+.buscatrabajo:hover{
+	background-color: #F18A12;
+	border: 0px;
+}
+
 
 .buscar{
 	color: #FFFFFF;
