@@ -1345,9 +1345,10 @@ dl{
 
 .imagen img{
 	width: 500px;
-	height: 400px;
+	height: 300px;
 	max-width: 100%;
-	border: 7px solid #136284;
+	border: 10px solid #136284;
+	border-radius: 20px;
 	box-sizing: border-box;
 } 
 
