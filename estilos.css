@@ -1330,7 +1330,7 @@ dl{
 
 .imagen{
 	width: 100%;
-    height: 50%;
+/*    height: 50%;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1353,7 +1353,7 @@ dl{
 
 .imagen img{
 	width: 500px;
-	height: 100%;
+	height: 400px;
 	max-width: 100%;
 	border: 7px solid #136284;
 	box-sizing: border-box;
