@@ -91,11 +91,15 @@
 		<section class="centrarlo">
 			<div class=" cuadroregistrate">
 				<h3>Crear cuenta</h3>
-				<h2> * todos los campos son obligatorios</h2>
-				<div class="dividirregistrate">
+					<div class="dividirregistrate">
+					<h2> * todos los campos son obligatorios</h2>
 					<div class="registrate">
 						<label for="numero">* ingresa tu email</label>
 						<input type="email" id="email" name="email" placeholder="Ej: JuanGomez@gmail.com" required>
+						<label for="numero">Número de teléfono</label>
+						<input type="tel" name="numero" id="numero" maxlength="11" placeholder="(54)1142484354" required>
+						<label for="nombre">* Nombre y apellido</label>
+						<input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombre completo" required>
 						<label for="contraseña">* Elige una contraseña</label>
 						<input type="contraseña" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" required>
 						<label for="contraseña">* Repite contraseña</label>
