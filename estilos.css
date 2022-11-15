@@ -113,34 +113,34 @@ h1{
 
 .indextodo{
 	padding: 50px;
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .index-orden{
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .indexh1{
 	display: flex;
-    flex-direction: column;
-    justify-content: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 
 .indexbotones{
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 /*-------------------------------header-------------------------*/
 
 .home-boton-derecho{
 	display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 2%;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2%;
 }
 
 .buscasempleo{
@@ -157,8 +157,8 @@ h1{
 
 .home-boton-izquierdo{
 	display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /*-----crear cuenta-- ingresar-----*/
@@ -212,10 +212,10 @@ h1{
 /*---linea naranja-----*/
 
 header{
-    height: auto;
-    border-bottom: solid 2px #F68C0F;
-    margin-left: 2%;
-    margin-right: 2%;
+	height: auto;
+	border-bottom: solid 2px #F68C0F;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 /*----------------------final del header--------------------*/
 
@@ -273,8 +273,8 @@ header{
 
 .home-busqueda{
 	display: flex;
-    align-items: center;
-    justify-content: space-around;
+	align-items: center;
+	justify-content: space-around;
 }
 
 
@@ -463,16 +463,16 @@ input[type="text"]{
 	font-weight: 600;
 }
 
-#cerrar{	
+#cerrar{
 	width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 450px;
-    right: 10px;
-    border-radius: 10px;
-    background-color: aliceblue;
-    margin-top: 10px;
-    padding-left: 0px;
+	height: 20px;
+	position: absolute;
+	top: 450px;
+	right: 10px;
+	border-radius: 10px;
+	background-color: aliceblue;
+	margin-top: 10px;
+	padding-left: 0px;
 }
 
 .ordenaraccesibilidad{
@@ -501,7 +501,7 @@ input[type="text"]{
 /*botones*/
 .botones-1y2{
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 .cv, .empresa{
@@ -546,10 +546,10 @@ input[type="text"]{
 /*capacitacion*/
 .capacitacion{
 	width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .capacitacion h3{
@@ -558,23 +558,23 @@ input[type="text"]{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 .boton_ver_mas{
 	position: relative;
-    width: 178px;
-    height: 60px;
-    left: 300px;
-    bottom: 100px;
-    background-color: #136284;
-    border-radius: 10px;
-    border-style: none;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
+	width: 178px;
+	height: 60px;
+	left: 300px;
+	bottom: 100px;
+	background-color: #136284;
+	border-radius: 10px;
+	border-style: none;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
 }
 
 .boton_ver_mas:hover {
@@ -638,14 +638,14 @@ input[type="text"]{
 
 .centrarlo{
 	display: flex;
-    align-items: center;
-    flex-direction: column;
+	align-items: center;
+	flex-direction: column;
 }
 
 /*video*/
 
 .inclusion{
-/*	width: 1197px;*/
+/*width: 1197px;*/
 	height: auto;
 	display: flex;
 	flex-direction: column;
@@ -821,14 +821,14 @@ input[type="text"]{
 /*card*/
 .trabajadores1 {
 	background-color: #A5D3E7;
-    border: 1px solid #A5D3E7;
-    border-radius: 30px;
-    width: 260px;
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    margin-bottom: 10px;
+	border: 1px solid #A5D3E7;
+	border-radius: 30px;
+	width: 260px;
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+	margin-bottom: 10px;
 	margin-left: 20px;
 }
 .orden-card-home{
@@ -856,13 +856,13 @@ input[type="text"]{
 
 .trabajadores1 {
 	background-color: #A5D3E7;
-    border: 10px solid #A5D3E7;
-    border-radius: 30px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-    justify-content: space-around;
+	border: 10px solid #A5D3E7;
+	border-radius: 30px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+	justify-content: space-around;
 }
 /*---------------------------------------*/
 /*footer*/
@@ -882,64 +882,55 @@ input[type="text"]{
 }
 footer{
 	height: auto;
-    border-bottom: solid 2px #F68C0F;
-    margin-left: 2%;
-    margin-right: 2%;
+	border-bottom: solid 2px #F68C0F;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 /*carrousel*/
 
-.carrousel_lista{
-	justify-content:space-around;
-	position: relative;
-}
-
-.slide{
-	margin: 30px;
-}
-
 .carrousel{
-	height: 180px;
-	overflow: hidden;
+	width: 950px;
+	height: 100px;
 	position: relative;
-	width: 900px;
-	flex-direction: column-reverse;
-	justify-content: flex-end;
-	margin: 90px;
-}
-
-.carrousel::before {
-	top: 0;
-	left: 0;
-}
-
-.carrousel::after {
-	top: 0;
-	left: 0;
-	transform: rotateZ(180deg);
-}
-
-.carrousel .carrousel_lista {
-	animation: scroll 100s linear infinite;
-	width: 100%;
+	background: #FFFFFF;
 	display: flex;
-	text-align: center;
+	overflow: hidden;
+}
+.carrousel_interaccion {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	animation: slideshow 30s linear infinite;
+}
+
+.carrousel_interaccion img {
+	padding: 0 20px 0 20px;
+}
+
+@keyframes slideshow {
+	0% {transform: translateX(0);}
+	100% {transform: translateX(-100%);}
 }
 
 .carrousel::before, .carrousel::after {
-	content: "";
 	height: 100px;
-	position: absolute;
 	width: 200px;
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #FFFFFF 0%, rgba(255,255,255,0) 100%);
 	z-index: 2;
 }
 
-@keyframes scroll {
-	0% { transform: translateX(0); }
-	
-	100% { transform: translateX(calc(-250px * 7))
-	
+.carrousel::before {
+	left: 0;
+	top: 0;
 }
+
+.carrousel::after {
+	right:0;
+	top:0;
+	transform: rotateZ(180deg);
 }
 
 .centrado-empresas {
@@ -950,10 +941,12 @@ footer{
 	padding-top: 20px;
 }
 
-.ordenargaleria{
+.ordenargaleria {
+	width: 100vw;
+	height: 50vh;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	align-items: center;
+	justify-content: center;
 }
 
 /*------------------------------personas-------------------------*/
