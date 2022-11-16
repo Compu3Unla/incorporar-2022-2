@@ -291,6 +291,8 @@ header{
 	position: fixed;
 	bottom:22%;
 	right:50px;
+	height: 100px;
+	max-width: 1920px;
 }
 
 /*posicion chat*/
@@ -502,6 +504,31 @@ input[type="text"]{
 	opacity: 0.8;
 	transition: opacity 0.3s;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+	animation:wobble-hor-bottom .8s 3s;
+	-webkit-animation:wobble-hor-bottom .8s 3s;
+}
+
+@keyframes wobble-hor-bottom { /*movimiento de vibración*/
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
 }
 
 /*-------------------------home--------------------------*/
