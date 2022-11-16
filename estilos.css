@@ -1668,35 +1668,13 @@ p{
 }
 /*fdinale de index*/
 .ventana-chat {
-	position: fixed;
-	bottom:35%;
-	right: 21px;
+	display:none;
 }
 
 #contenedor-accesible{
-	position: fixed;
-	bottom:20%;
-	right: 21px;
-}
-
-.accesibilidad-ventana {
-	width: 80%;
-	height: 75%;
-	right: 20px;
-	bottom: 20.5%;
 	display: none;
-	padding-left: 15px;
-	padding-top: 20px;
 }
-
-.chat-popup{
-	position: fixed;
-	bottom:235px;
-	right:132px;
-	height: 290px;
-	width: 190px;
-	background-color: white;
-}	
+	
 
 /*--------*/
 
@@ -1725,6 +1703,8 @@ header{
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-right: 100px;
+	justify-content: space-evenly;
 	cursor: pointer;
 	
 }
@@ -1926,7 +1906,6 @@ header{
 	font-size: 0.8em;
 	pointer-events:none;
 	background-image: url("img/iconos/ilustracion-cv.svg");
-	padding-left: 0px; 
 	padding-right: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -1942,7 +1921,6 @@ header{
 	padding-bottom: 180px;
 	pointer-events:none;
 	background-image: url("img/iconos/ilustracion-empresa.svg");
-	padding-left: 0px; 
 	padding-right: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -1971,15 +1949,17 @@ header{
 
 .capacitacion h3 {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .boton_ver_mas{
 	width: 77px;
 	height: 31px;
+
 	font-size: 0.9em;
 	left: 70px;
-	bottom: 60px;
+	top: 100px;
 }
 
 .cuadro{
@@ -1989,14 +1969,7 @@ header{
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
-}
-
-.cuadro h3{
-	padding-top: 40px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	text-align: center;
+	margin-top: 60px;
 }
 
 .valores {
