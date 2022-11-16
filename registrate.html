@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrate</title>
+<link rel="icon" href="img/reduccion.svg">
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div>
+			<nav>
+				<section class= "home-boton-derecho">
+					<img src="img/logo-pantallas.svg" width="310" height="56px" alt="logo" href="home.html">
+					<section>
+					</section>
+				</section>
+			</nav>
+				<ul class= "home-boton-izquierdo">	
+					<li><a class="buscasempleo" href="conocenos.html">Conocenos</a></li>
+					<li><a class="buscasempleo" href="#">¿Qué hacemos?</a></li>
+					<li><a class="buscasempleo" href="#">Informate</a></li>
+				</ul>
+		</div>
+	</header>
+	<main>
+<!-- Formulario-->
+		<section class="centrarlo">
+			<div class=" cuadroregistrate">
+				<h3>Crear cuenta</h3>
+					<div class="dividirregistrate">
+				
+					<div class="registrate">
+						<label for="numero">* ingresa tu email</label>
+						<input type="email" id="email" name="email" placeholder="Ej: JuanGomez@gmail.com" required>
+						<label for="numero">Número de teléfono</label>
+						<input type="tel" name="numero" id="numero" maxlength="11" placeholder="(54)1142484354" required>
+						<label for="nombre">* Nombre y apellido</label>
+						<input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombre completo" required>
+						<label for="contraseña">* Elige una contraseña</label>
+						<input type="contraseña" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" required>
+						<label for="contraseña">* Repite contraseña</label>
+						<input type="contraseña" id="contraseña2" name="contraseña" placeholder="Ingresa tu contraseña" required>
+						<a href="home.html" class="boton-crearcuenta"><div class="botonregistrate">Crear cuenta</div></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+		<section class="footer1">
+			<h5>Contactanos</h5>
+			<h5>Sobre nosotros</h5>
+			<h5>Términos y Condiciones</h5>
+			<h5>Todos los derechos reservados</h5>
+		</section>
+		
+		<section footer2>
+			<h5>Informate</h5>
+			<h5>Recursos</h5>
+			<h5>Casos de éxito</h5>
+			
+		</section>
+		<section class="footer3">
+			<h5>Sol Martinez</h5>
+			<h5>Natalia Martinez</h5>
+			<h5>Soledad Quintana</h5>
+			<h5>Micaela Balmaceda</h5>
+		</section>
+		<div class="iconos-footer">
+		<section>
+			<img class="logo-desk" src="img/logo-footer.svg" width="246px" height="44px" alt="logo">
+		</section>
+		<section>
+			<img src="img/redes/instagram.svg" width="34px" height="34px" alt="instagram">
+			<img src="img/redes/twitter.svg" width="34px" height="34px" alt="twitter">
+			<img src="img/redes/linkedin.svg" width="34px" height="34px" alt="linkedin">
+			<img src="img/redes/facebook.svg" width="34px" height="34px" alt="facebook">
+			<img src="img/redes/youtube.svg" width="34px" height="34px" alt="youtube">
+		</section>
+	</div>
+	</footer>
+</main>
+</body>
+	<!--ventana chat-->
+	<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<!--ventana accesibilidad-->
+		<script>
+			function abrir(){
+				document.getElementById("ventana").style.display="block";
+			}
+			function cerrar(){
+				document.getElementById("ventana").style.display="none";
+			}
+		</script>
+</html>
