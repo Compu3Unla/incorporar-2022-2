@@ -136,6 +136,10 @@ h1{
 
 /*-------------------------------header-------------------------*/
 
+.nav-mobile{
+	display: none;
+}
+
 .home-boton-derecho{
 	display: flex;
 	align-items: center;
@@ -562,6 +566,10 @@ input[type="text"]{
 	justify-content: center;
 }
 
+.capacitacion-mobile{
+	display: none;
+}
+
 .boton_ver_mas{
 	position: relative;
 	width: 178px;
@@ -666,6 +674,10 @@ input[type="text"]{
 	flex-direction: column;
 	align-items: center;
 	padding-bottom: 30px
+}
+
+.video-mobile{
+	display: none;
 }
 
 /*galeria de trabajadores*/
@@ -1610,73 +1622,13 @@ p{
 
 /* todo este codigo es responsive sacado del css viejo*/
 /* chat de accesibilidad---------------------------------------------*/
-.ventana-chat {
-	position: fixed;
-	bottom:35%;
-	right: 21px;
+.ventana-chat{
+	display:none;
 }
 
 #contenedor-accesible{
-	position: fixed;
-	bottom:20%;
-	right: 21px;
-}
-
-.accesibilidad-ventana {
-	width: 80%;
-	height: 75%;
-	right: 20px;
-	bottom: 20.5%;
 	display: none;
-	padding-left: 15px;
-	padding-top: 20px;
 }
-
-.chat-popup{
-	position: fixed;
-	bottom:235px;
-	right:132px;
-	height: 290px;
-	width: 190px;
-	background-color: white;
-}	
-
-/*--------*/
-	/*botones*/
-.indexbotones{
-	width: 300px;
-	height: 300px;
-	display: block;
-    padding-left: 100px;
-/*    display: flex;
-    flex-direction: column;*/
-	}
-.naranja{
-	width: 100px;
-	height: 50px;
-	background-color: #F68C0F;
-	border: 1px solid #F68C0F;
-	border-radius: 10px;
-	font-weight: 500;
-	font-size: 0.9em;
-	color: #FFFFFF;
-}
-
-.versitio{
-	color: #FFFFFF;
-}
-
-
-.naranja:hover, .versitio:hover{
-	width: 100px;
-	height: 50px;
-	border: 2px solid #F68C0F;
-	border-radius: 10px;
-	background-color: #FFFFFF;
-	font-size: 0.9em;
-	color:#F68C0F;
-}
-	
 
 /*-----------header-----------*/
 
@@ -1694,7 +1646,6 @@ header{
 }
 
 .class-fixed {
-	width: 100%;
 	height: 60px;
 	display: flex;
 	justify-content: space-between;
@@ -1709,7 +1660,7 @@ header{
 }
 
 .bar-btn{
-	padding-right: 20px;
+	padding-right: 0px;
 	padding-top: 25px;
 	justify-content: flex-end;
 	cursor: pointer;
@@ -1724,10 +1675,11 @@ header{
 	display: flex;
 	flex-direction: column;
 	position:fixed;
-	width: 100%;
+	width: 360px;
 	height: 0vh;
 	top: 67px;
 	background: white;
+	align-items: center;
 	text-align: center;
 	transition: all .5s;
 	cursor: pointer;
@@ -1774,32 +1726,57 @@ header{
 	flex-wrap: wrap;
 	border-top: 3px solid #999999;
 	font-size: 0.8em;
+		padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .footer1{
 	display: flex;
 	flex-direction: column;
-	padding-left: 5px;
 	justify-content: space-between;
 	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .footer2 {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
 	margin-right: 0px;
 }
 
 .footer3{
 	margin-bottom: 56px;
-	padding-left: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 	
 }
 
 
 .iconos-footer{
-	width: 100%;
+	width: 320px;
 	height: 100%;
 	margin-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px
 }
+
+.logo-desk{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 /*----------------------------------HOME-----------------------------------*/
 	
 .centrado{
@@ -1807,8 +1784,16 @@ header{
 	flex-direction: column;
 	align-items: center;
 	padding-top: 50px;
-	flex-wrap: wrap
+	flex-wrap: wrap;
+
 }
+
+.home-busqueda{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}	
 
 .centrado-empresas {
 	width: 315px;
@@ -1817,29 +1802,38 @@ header{
 	flex-direction:column;
 	text-align: center;
 	padding-top: 20px;
+
+	
+
 }
 
 .navegador{
-	width: 21%;
+	width: 305px;
 	height: 50px;
 	margin-top: 60px;
-	padding-left: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 	border-radius: 12px;
+	align-items: center;
 }
 
 .lupa{
 	padding-right: 15px;
+
 }
 
 .buscador{
-	padding-left: 5px;
-	margin-right: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .buscatrabajo{ 
 	width: 210px;
 	height: 50px;
-	margin-left: 5px;
 	font-size: 0.9em;
 }
 
@@ -1848,8 +1842,8 @@ header{
 .botones-1y2{
 	display: flex;
 	flex-direction: column;
-	padding-left: 35%;
-	padding-right: 35%;
+	align-items: center;
+
 }
 
 .cv{
@@ -1862,6 +1856,10 @@ header{
 	font-size: 0.8em;
 	pointer-events:none;
 	background-image: url("img/iconos/ilustracion-cv.svg");
+	padding-left: 0px; 
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .empresa{
@@ -1874,6 +1872,10 @@ header{
 	padding-bottom: 180px;
 	pointer-events:none;
 	background-image: url("img/iconos/ilustracion-empresa.svg");
+	padding-left: 0px; 
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .empresa{
@@ -1906,12 +1908,12 @@ header{
 	width: 77px;
 	height: 31px;
 	font-size: 0.9em;
-	left: 200px;
+	left: 70px;
 	bottom: 60px;
 }
 
 .cuadro{
-	width: 24%;
+	width: 315px;
 	height: 900px;
 	border: 2px solid #F68C0F;
 	border-radius: 10px;
@@ -1982,7 +1984,8 @@ header{
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	padding-bottom: 5px
+	padding-bottom: 5px;
+
 }
 
 .trabajadores {
@@ -1995,17 +1998,22 @@ header{
 .trabajadores1 {
 	padding-top: 0px;
 	margin-bottom: 30px;
+	margin-left: 0px;
 }
+
 
 /*-------carrousel----------*/
 
 .carrousel{
 	width: 250px;
+
 }
+
 
 .carrousel::before, .carrousel::after {
 	height: 90px;
 	width: 100px;
+
 }
 
 }
