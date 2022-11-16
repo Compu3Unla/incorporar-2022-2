@@ -571,7 +571,7 @@ input[type="text"]{
 }
 
 .boton_ver_mas{
-	position: relative;
+	position: relative; z-index:1;
 	width: 178px;
 	height: 60px;
 	left: 300px;
@@ -1628,10 +1628,10 @@ p{
 header{
 	padding: 0px;
 	margin: 0px;
-	width: 100%;
+	width: 360px;
 	border-bottom: 2px solid #F68C0F;
 	background: #FFFFFF;
-	position: fixed;
+	position: fixed;z-index: 2;
 }
 
 .class-fixed {
@@ -1663,7 +1663,7 @@ header{
 .lista-nav {
 	display: flex;
 	flex-direction: column;
-	position:fixed;
+	position:fixed; z-index:2;
 	width: 360px;
 	height: 0vh;
 	top: 67px;
