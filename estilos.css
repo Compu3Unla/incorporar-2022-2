@@ -1603,40 +1603,7 @@ p{
     flex-direction: column;
     align-items: center;
 }
-
-.ventana-chat {
-	position: fixed;
-	bottom:35%;
-	right: 21px;
-}
-
-#contenedor-accesible{
-	position: fixed;
-	bottom:20%;
-	right: 21px;
-}
-
-.accesibilidad-ventana {
-	width: 80%;
-	height: 75%;
-	right: 20px;
-	bottom: 20.5%;
-	display: none;
-	padding-left: 15px;
-	padding-top: 20px;
-}
-
-.chat-popup{
-	position: fixed;
-	bottom:235px;
-	right:132px;
-	height: 290px;
-	width: 190px;
-	background-color: white;
-}	
-
-/*--------*/
-	/*botones*/
+/*botones*/
 .indexbotones{
 	width: 300px;
 	height: 300px;
@@ -1670,67 +1637,39 @@ p{
 	font-size: 0.9em;
 	color:#F68C0F;
 }
-/*------------------------------------final index-----------------------------*/	
-.indextodo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.naranja p{
-	display: flex;
-    justify-content: center;
-}
-
-.indextodo img{
-	width: 90%;	
-	height: auto;
-	padding: 0px;
-}
-
-.indextodo h1{
-	width: 220px;
-	height: auto;
-	padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img-bienvenida{
-	width: 170px;
-    height: 160px;
-    padding-bottom: 100;
-}
-
-.index-orden{
-	width: 260px;
-    height: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.indexbotones{
-    width: 0px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-}
-
-/*index listo*/
-/*index listo*/
-
-/* todo este codigo es responsive sacado del css viejo*/
-/* chat de accesibilidad---------------------------------------------*/
-.ventana-chat{
-	display:none;
+/*fdinale de index*/
+.ventana-chat {
+	position: fixed;
+	bottom:35%;
+	right: 21px;
 }
 
 #contenedor-accesible{
-	display: none;
+	position: fixed;
+	bottom:20%;
+	right: 21px;
 }
+
+.accesibilidad-ventana {
+	width: 80%;
+	height: 75%;
+	right: 20px;
+	bottom: 20.5%;
+	display: none;
+	padding-left: 15px;
+	padding-top: 20px;
+}
+
+.chat-popup{
+	position: fixed;
+	bottom:235px;
+	right:132px;
+	height: 290px;
+	width: 190px;
+	background-color: white;
+}	
+
+/*--------*/
 
 /*-----------header-----------*/
 
