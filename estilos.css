@@ -136,6 +136,10 @@ h1{
 
 /*-------------------------------header-------------------------*/
 
+.nav-mobile{
+	display: none;
+}
+
 .home-boton-derecho{
 	display: flex;
 	align-items: center;
@@ -562,6 +566,10 @@ input[type="text"]{
 	justify-content: center;
 }
 
+.capacitacion-mobile{
+	display: none;
+}
+
 .boton_ver_mas{
 	position: relative;
 	width: 178px;
@@ -666,6 +674,10 @@ input[type="text"]{
 	flex-direction: column;
 	align-items: center;
 	padding-bottom: 30px
+}
+
+.video-mobile{
+	display: none;
 }
 
 /*galeria de trabajadores*/
@@ -874,18 +886,15 @@ input[type="text"]{
 	padding: 20px;
 	margin-bottom: 10px;
 	border-top: 3px solid #999999;
+	height: auto;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .iconos-footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-footer{
-	height: auto;
-	border-bottom: solid 2px #F68C0F;
-	margin-left: 2%;
-	margin-right: 2%;
 }
 
 /*carrousel*/
@@ -1240,31 +1249,22 @@ dl{
 }
 /*----------------------------conocenos--------------------*/
 
-.apartado_conocenos{
-	width: auto 0;
-	align-items: center;
+.organizar {
 	display: flex;
-	flex-direction: column;
-	padding: 50px;
-}
-
-.dividir-conocenos{
-	display: flex;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-
-.conocenosp{
+    flex-wrap: wrap;
+    justify-content: center;
 	width: 800px;
-	margin: 35px;
+	margin-left: 20%;
+	margin-top: 60px;
 }
-
-.columna_conocenos{
-	width: 500px;
-	height: auto;
-	display: flex;
-	flex-direction: column;
-	margin-right: 100px;
+.organizar p {
+	margin-top: 40px;
+}
+.organizar h4 {
+	margin-top: 80px;
+}
+.bottom {
+	margin-bottom: 150px;
 }
 
 /*galeria*/ /*modificandooooooooooooooo*/
@@ -1283,7 +1283,7 @@ dl{
 }
 .galeria img{
 	width: 200px;
-	height: 100px;
+	height: auto;
 }
 
 /*estilos modal*/
@@ -1345,7 +1345,7 @@ dl{
 
 .imagen img{
 	width: 500px;
-	height: 300px;
+	height: 400px;
 	max-width: 100%;
 	border: 10px solid #136284;
 	border-radius: 20px;
@@ -1366,6 +1366,7 @@ dl{
 	border-radius: 50%;
 	line-height: 25px;
 }
+
 
 /*------------------------puesto de trabajo------------------------------*/
 .puesto1{
@@ -1555,8 +1556,6 @@ p{
 }
 	
 /*------------------------------------index-----------------------------*/	
-
-/*------------------------------------index-----------------------------*/	
 .indextodo{
     display: flex;
     flex-direction: column;
@@ -1638,11 +1637,7 @@ p{
 	font-size: 0.9em;
 	color:#F68C0F;
 }
-
-/*index listo*/
-
-/* todo este codigo es responsive sacado del css viejo*/
-/* chat de accesibilidad---------------------------------------------*/
+/*fdinale de index*/
 .ventana-chat {
 	position: fixed;
 	bottom:35%;
@@ -1675,7 +1670,7 @@ p{
 }	
 
 /*--------*/
-	
+
 /*-----------header-----------*/
 
 .nav-botones-derecho, .ulheader, .nav-desk, .buscasempleo, .crearcuenta, .ingresar {
@@ -1692,7 +1687,6 @@ header{
 }
 
 .class-fixed {
-	width: 100%;
 	height: 60px;
 	display: flex;
 	justify-content: space-between;
@@ -1707,7 +1701,7 @@ header{
 }
 
 .bar-btn{
-	padding-right: 20px;
+	padding-right: 0px;
 	padding-top: 25px;
 	justify-content: flex-end;
 	cursor: pointer;
@@ -1722,10 +1716,11 @@ header{
 	display: flex;
 	flex-direction: column;
 	position:fixed;
-	width: 100%;
+	width: 360px;
 	height: 0vh;
 	top: 67px;
 	background: white;
+	align-items: center;
 	text-align: center;
 	transition: all .5s;
 	cursor: pointer;
@@ -1772,32 +1767,57 @@ header{
 	flex-wrap: wrap;
 	border-top: 3px solid #999999;
 	font-size: 0.8em;
+		padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .footer1{
 	display: flex;
 	flex-direction: column;
-	padding-left: 5px;
 	justify-content: space-between;
 	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .footer2 {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
 	margin-right: 0px;
 }
 
 .footer3{
 	margin-bottom: 56px;
-	padding-left: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 	
 }
 
 
 .iconos-footer{
-	width: 100%;
+	width: 320px;
 	height: 100%;
 	margin-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px
 }
+
+.logo-desk{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 /*----------------------------------HOME-----------------------------------*/
 	
 .centrado{
@@ -1805,8 +1825,16 @@ header{
 	flex-direction: column;
 	align-items: center;
 	padding-top: 50px;
-	flex-wrap: wrap
+	flex-wrap: wrap;
+
 }
+
+.home-busqueda{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}	
 
 .centrado-empresas {
 	width: 315px;
@@ -1815,29 +1843,38 @@ header{
 	flex-direction:column;
 	text-align: center;
 	padding-top: 20px;
+
+	
+
 }
 
 .navegador{
-	width: 21%;
+	width: 305px;
 	height: 50px;
 	margin-top: 60px;
-	padding-left: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 	border-radius: 12px;
+	align-items: center;
 }
 
 .lupa{
 	padding-right: 15px;
+
 }
 
 .buscador{
-	padding-left: 5px;
-	margin-right: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .buscatrabajo{ 
 	width: 210px;
 	height: 50px;
-	margin-left: 5px;
 	font-size: 0.9em;
 }
 
@@ -1846,8 +1883,8 @@ header{
 .botones-1y2{
 	display: flex;
 	flex-direction: column;
-	padding-left: 35%;
-	padding-right: 35%;
+	align-items: center;
+
 }
 
 .cv{
@@ -1860,6 +1897,10 @@ header{
 	font-size: 0.8em;
 	pointer-events:none;
 	background-image: url("img/iconos/ilustracion-cv.svg");
+	padding-left: 0px; 
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .empresa{
@@ -1872,6 +1913,10 @@ header{
 	padding-bottom: 180px;
 	pointer-events:none;
 	background-image: url("img/iconos/ilustracion-empresa.svg");
+	padding-left: 0px; 
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .empresa{
@@ -1904,12 +1949,12 @@ header{
 	width: 77px;
 	height: 31px;
 	font-size: 0.9em;
-	left: 200px;
+	left: 70px;
 	bottom: 60px;
 }
 
 .cuadro{
-	width: 24%;
+	width: 315px;
 	height: 900px;
 	border: 2px solid #F68C0F;
 	border-radius: 10px;
@@ -1980,7 +2025,8 @@ header{
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	padding-bottom: 5px
+	padding-bottom: 5px;
+
 }
 
 .trabajadores {
@@ -1993,17 +2039,22 @@ header{
 .trabajadores1 {
 	padding-top: 0px;
 	margin-bottom: 30px;
+	margin-left: 0px;
 }
+
 
 /*-------carrousel----------*/
 
 .carrousel{
 	width: 250px;
+
 }
+
 
 .carrousel::before, .carrousel::after {
 	height: 90px;
 	width: 100px;
+
 }
 
 }
