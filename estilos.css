@@ -1555,10 +1555,17 @@ p{
 }
 	
 /*------------------------------------index-----------------------------*/	
+
+/*------------------------------------index-----------------------------*/	
 .indextodo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.naranja p{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+    justify-content: center;
 }
 
 .indextodo img{
@@ -1570,40 +1577,35 @@ p{
 .indextodo h1{
 	width: 220px;
 	height: auto;
-	padding-top: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-bienvenida{
-<<<<<<< HEAD
 	width: 170px;
     height: 160px;
     padding-bottom: 100;
-=======
-	width: 130px;
-	height: 160px;
-	padding-bottom: 100;
->>>>>>> origin/main
 }
 
 .index-orden{
 	width: 260px;
-	height: 320px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .indexbotones{
-	width: 0px;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	align-items: center;
+    width: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
+/*index listo*/
 /*index listo*/
 
 /* todo este codigo es responsive sacado del css viejo*/
@@ -1637,8 +1639,6 @@ p{
 	height: 290px;
 	width: 190px;
 	background-color: white;
-<<<<<<< HEAD
-
 }	
 
 /*--------*/
@@ -1677,10 +1677,7 @@ p{
 	color:#F68C0F;
 }
 	
-	
-=======
-}
->>>>>>> origin/main
+
 /*-----------header-----------*/
 
 .nav-botones-derecho, .ulheader, .nav-desk, .buscasempleo, .crearcuenta, .ingresar {
