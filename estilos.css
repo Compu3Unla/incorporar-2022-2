@@ -874,18 +874,15 @@ input[type="text"]{
 	padding: 20px;
 	margin-bottom: 10px;
 	border-top: 3px solid #999999;
+	height: auto;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .iconos-footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-footer{
-	height: auto;
-	border-bottom: solid 2px #F68C0F;
-	margin-left: 2%;
-	margin-right: 2%;
 }
 
 /*carrousel*/
@@ -1240,31 +1237,22 @@ dl{
 }
 /*----------------------------conocenos--------------------*/
 
-.apartado_conocenos{
-	width: auto 0;
-	align-items: center;
+.organizar {
 	display: flex;
-	flex-direction: column;
-	padding: 50px;
-}
-
-.dividir-conocenos{
-	display: flex;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-
-.conocenosp{
+    flex-wrap: wrap;
+    justify-content: center;
 	width: 800px;
-	margin: 35px;
+	margin-left: 20%;
+	margin-top: 60px;
 }
-
-.columna_conocenos{
-	width: 500px;
-	height: auto;
-	display: flex;
-	flex-direction: column;
-	margin-right: 100px;
+.organizar p {
+	margin-top: 40px;
+}
+.organizar h4 {
+	margin-top: 80px;
+}
+.bottom {
+	margin-bottom: 150px;
 }
 
 /*galeria*/ /*modificandooooooooooooooo*/
@@ -1283,7 +1271,7 @@ dl{
 }
 .galeria img{
 	width: 200px;
-	height: 100px;
+	height: auto;
 }
 
 /*estilos modal*/
@@ -1345,7 +1333,7 @@ dl{
 
 .imagen img{
 	width: 500px;
-	height: 300px;
+	height: 400px;
 	max-width: 100%;
 	border: 10px solid #136284;
 	border-radius: 20px;
@@ -1366,6 +1354,7 @@ dl{
 	border-radius: 50%;
 	line-height: 25px;
 }
+
 
 /*------------------------puesto de trabajo------------------------------*/
 .puesto1{
