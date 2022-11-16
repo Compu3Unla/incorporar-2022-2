@@ -943,7 +943,7 @@ footer{
 }
 
 .ordenargaleria {
-	width: 100vw;
+	width: 98vw;
 	height: 50vh;
 	display: flex;
 	align-items: center;
@@ -1002,8 +1002,7 @@ form h2{
 	padding-left: 15px;
 	padding-top: 70px;
 	display: flex;
-    justify-content: center;
-	
+	justify-content: center;
 }
 
 .columna .boton{
@@ -1053,9 +1052,9 @@ form h2{
 }
 
 .ordenpuestos{
-    height: auto;
-    display: flex;
-    justify-content: space-between;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
 }
 .puestostrabajo span{
 	color: #136284;
@@ -1119,9 +1118,9 @@ form h2{
 
 .ajustes-razonables{
 	width: 50%;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
 .ajustes-razonables-iconos{
@@ -1201,32 +1200,32 @@ dl{
 	width: 800px;
 	color: #136284;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .centrarformulario{
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-top: 20px;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 .volveratras{
-    width: 178px;
-    background-color: #136284;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-size: 22px;
-    font-size: 1.em;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+	width: 178px;
+	background-color: #136284;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-size: 1.em;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	margin-bottom: 20px;
 	margin-top: 25px;
 }
@@ -1236,7 +1235,7 @@ dl{
 	font-weight: 600;
 	background-color: #FFFFFF;
 	border: 2px solid #136284;
-    border-radius: 10px;
+	border-radius: 10px;
 	color: #136284;
 }
 /*----------------------------conocenos--------------------*/
@@ -1251,8 +1250,8 @@ dl{
 
 .dividir-conocenos{
 	display: flex;
-    padding-bottom: 50px;
-    padding-top: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .conocenosp{
@@ -1262,21 +1261,21 @@ dl{
 
 .columna_conocenos{
 	width: 500px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
 }
 
 /*galeria*/ /*modificandooooooooooooooo*/
 .galeria{
 	width: 100%;
-    margin: auto;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .galeria li{
@@ -1290,9 +1289,9 @@ dl{
 /*estilos modal*/
 .conoce-incorporar{
 	display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
 	font-size: 40px;
 }
 
@@ -1324,11 +1323,11 @@ dl{
 .imagen{
 	width: 100%;
 /*    height: 50%;*/
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 200px;
 }
 
 .imagen a{
@@ -1351,7 +1350,7 @@ dl{
 	border: 10px solid #136284;
 	border-radius: 20px;
 	box-sizing: border-box;
-} 
+}
 
 .cierre{
 	display: block;
@@ -1371,8 +1370,8 @@ dl{
 /*------------------------puesto de trabajo------------------------------*/
 .puesto1{
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .puesto1 h3{
@@ -1389,21 +1388,21 @@ dl{
 
 .ordenarpuesto{
 	display: flex;
-    flex-direction: column;
-    width: 850px;
-    padding-left: 40px;
+	flex-direction: column;
+	width: 850px;
+	padding-left: 40px;
 }
 
 .puestoexperiencia{
 	display: flex;
-    align-items: flex-start;
-    padding-bottom: 15px;
-    padding-top: 15px;
+	align-items: flex-start;
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 .orden-p{
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 /*botones*/
@@ -1415,18 +1414,18 @@ dl{
 }
 
 .boton-postularme{
-    height: 60px;
+	height: 60px;
 	margin-left: 50px;
-    background-color: #136284;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	background-color: #136284;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .boton-postularme:hover{
@@ -1477,8 +1476,8 @@ dl{
 	height: 900px;
 	margin: 3%;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .cuadroregistrate h3{
@@ -1489,9 +1488,9 @@ dl{
 
 .dividirregistrate{
 	display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
 }
 
 .dividirregistrate p{
@@ -1518,21 +1517,21 @@ dl{
 	margin: 9px;
 	padding: 5px;
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 /*ingresar*/
 .cuadroringresar{
 	padding-top: 50px;
-    padding-bottom: 70px;
-    border: 2px solid #F68C0F;
-    border-radius: 10px;
-    width: 700px;
-    height: 500px;
-    margin: 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	padding-bottom: 70px;
+	border: 2px solid #F68C0F;
+	border-radius: 10px;
+	width: 700px;
+	height: 500px;
+	margin: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 @media screen and (max-width: 360px) {
@@ -1557,9 +1556,9 @@ p{
 	
 /*------------------------------------index-----------------------------*/	
 .indextodo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .indextodo img{
@@ -1572,31 +1571,31 @@ p{
 	width: 220px;
 	height: auto;
 	padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .img-bienvenida{
 	width: 130px;
-    height: 160px;
-    padding-bottom: 100;
+	height: 160px;
+	padding-bottom: 100;
 }
 
 .index-orden{
 	width: 260px;
-    height: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .indexbotones{
-    width: 0px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+	width: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
 }
 /*index listo*/
 
@@ -1631,11 +1630,7 @@ p{
 	height: 290px;
 	width: 190px;
 	background-color: white;
-
-}	
-	
-	
-	
+}
 /*-----------header-----------*/
 
 .nav-botones-derecho, .ulheader, .nav-desk, .buscasempleo, .crearcuenta, .ingresar {
@@ -1648,14 +1643,14 @@ header{
 	width: 100%;
 	border-bottom: 2px solid #F68C0F;
 	background: #FFFFFF;
-	position: fixed;		
+	position: fixed;
 }
 
 .class-fixed {
 	width: 100%;
 	height: 60px;
 	display: flex;
-	justify-content: space-between;	
+	justify-content: space-between;
 }
 
 .logo {
@@ -1758,8 +1753,6 @@ header{
 	height: 100%;
 	margin-top: 0px;
 }
-
-	
 /*----------------------------------HOME-----------------------------------*/
 	
 .centrado{
@@ -1769,7 +1762,7 @@ header{
 	padding-top: 50px;
 	flex-wrap: wrap
 }
-	
+
 .centrado-empresas {
 	width: 315px;
 	display: flex;
@@ -1791,7 +1784,6 @@ header{
 	padding-right: 15px;
 }
 
-	
 .buscador{
 	padding-left: 5px;
 	margin-right: 10px;
@@ -1803,16 +1795,16 @@ header{
 	margin-left: 5px;
 	font-size: 0.9em;
 }
-	
+
 /*-------------------------------*/
-	
+
 .botones-1y2{
 	display: flex;
 	flex-direction: column;
 	padding-left: 35%;
 	padding-right: 35%;
 }
-	
+
 .cv{
 	width: 315px;
 	height: 172px;
@@ -1825,8 +1817,6 @@ header{
 	background-image: url("img/iconos/ilustracion-cv.svg");
 }
 
-
-
 .empresa{
 	width: 315px;
 	height: 172px;
@@ -1837,7 +1827,7 @@ header{
 	padding-bottom: 180px;
 	pointer-events:none;
 	background-image: url("img/iconos/ilustracion-empresa.svg");
-}	
+}
 
 .empresa{
 	background-color: #136284;
@@ -1845,8 +1835,6 @@ header{
 	padding-right: 15px;
 	padding-bottom: 105px;
 }
-	
-
 
 	/*----------------------------------------------*/
 .capacitacion-mobile {
@@ -1856,17 +1844,17 @@ header{
 .capacitacion-imagen {
 	display: none;
 }
-	
+
 .capacitacion{
 	display:flex;
 	justify-content: center;
 }
-	
+
 .capacitacion h3 {
 	margin-top: 20px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 }
-	
+
 .boton_ver_mas{
 	width: 77px;
 	height: 31px;
@@ -1875,7 +1863,6 @@ header{
 	bottom: 60px;
 }
 
-	
 .cuadro{
 	width: 24%;
 	height: 900px;
@@ -1923,7 +1910,7 @@ header{
 	font-size: 1em;
 	padding-bottom: 60px;
 }
-	
+
 .iconoshome p{
 	padding-top: 15px;
 }
@@ -1962,14 +1949,17 @@ header{
 	padding-top: 0px;
 	margin-bottom: 30px;
 }
-	
 
 /*-------carrousel----------*/
 
 .carrousel{
-	width: 360px;
+	width: 250px;
 }
 
+.carrousel::before, .carrousel::after {
+	height: 90px;
+	width: 100px;
+}
 
 }
 
