@@ -1567,13 +1567,6 @@ p{
 	height: auto;
 	padding: 0px;
 }
-	
-/*.img-bienvenida{
-    width: 401px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-	}*/
 
 .indextodo h1{
 	width: 220px;
@@ -1605,50 +1598,10 @@ p{
     flex-direction: column;
     align-items: center;
 }
-	
-/*
-h1 {
-	width: 100%;
-	margin-top: 0px;
-}
+/*index listo*/
 
-.indexsection {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding-left: 5%;
-	padding-right: 5%;
-	margin-top: 0px;
-}
-
-.foto {
-	padding-top: 80px;
-	padding-bottom: 30px;
-}
-	
-.indexsection img {
-	width: 92%;
-	height: 92%
-}
-
-.botonesindex{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.naranja{
-	width: 145px;
-	height: 100px;
-	font-size: 1.3em;
-	padding: 10px;
-	margin: 5px;
-}
-
-
-/*------------chat y accesibilidad---------------*/
-
+/* todo este codigo es responsive sacado del css viejo*/
+/* chat de accesibilidad---------------------------------------------*/
 .ventana-chat {
 	position: fixed;
 	bottom:35%;
