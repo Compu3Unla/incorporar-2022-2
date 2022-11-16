@@ -120,6 +120,7 @@ h1{
 .index-orden{
 	display: flex;
 	justify-content: space-between;
+	max-width: 1360px;
 }
 
 .indexh1{
@@ -131,7 +132,8 @@ h1{
 
 .indexbotones{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	max-width: 1360px;
 }
 
 /*-------------------------------header-------------------------*/
@@ -157,7 +159,7 @@ h1{
 
 .home-boton-izquierdo{
 	display: flex;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 }
 
@@ -867,7 +869,7 @@ input[type="text"]{
 }
 /*---------------------------------------*/
 /*footer*/
-.footer{
+.footer{ 
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
